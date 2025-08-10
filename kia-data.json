@@ -1,0 +1,322 @@
+{
+  "brand": "Kia",
+  "models": [
+    {
+      "name": "KIA BESTA Camionnette",
+      "motorisations": []
+    },
+    {
+      "name": "KIA BORREGO",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CADENZA I (VG)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CARENS I (FC)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CARENS II Monospace (FJ)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CARENS III Monospace (UN)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CARENS IV",
+      "motorisations": [
+        "KIA CARENS IV1.6 GDi",
+        "KIA CARENS IV2.0 GDi",
+        "KIA CARENS IV2.0 MPI"
+      ]
+    },
+    {
+      "name": "KIA CARNIVAL / GRAND CARNIVAL III (VQ)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CARNIVAL I (UP)",
+      "motorisations": [
+        "KIA CARNIVAL I (UP)2.9 TD"
+      ]
+    },
+    {
+      "name": "KIA CARNIVAL II (GQ)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CEE'D (JD)",
+      "motorisations": [
+        "KIA CEE'D (JD)1.0 T-GDI",
+        "KIA CEE'D (JD)1.4 MPI",
+        "KIA CEE'D (JD)1.6 GDI"
+      ]
+    },
+    {
+      "name": "KIA CEE'D 3/5 portes (ED)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CEE'D Sportswagon (JD)",
+      "motorisations": [
+        "KIA CEE'D Sportswagon (JD)1.0 T-GDI",
+        "KIA CEE'D Sportswagon (JD)1.4 MPI",
+        "KIA CEE'D Sportswagon (JD)1.6 GDI"
+      ]
+    },
+    {
+      "name": "KIA CEE'D SW (ED)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CERATO 3/5 portes (LD)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CERATO II Sedan (TD)",
+      "motorisations": [
+        "CERATO II Sedan (TD)",
+        "KIA CERATO II Sedan (TD)1.6",
+        "KIA CERATO II Sedan (TD)1.6 CVVT",
+        "KIA CERATO II Sedan (TD)2.0"
+      ]
+    },
+    {
+      "name": "KIA CERATO III Sedan (YD)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CERATO KOUP (TD)",
+      "motorisations": [
+        "CERATO KOUP (TD)",
+        "KIA CERATO KOUP (TD)1.6 CVVT",
+        "KIA CERATO KOUP (TD)2.0"
+      ]
+    },
+    {
+      "name": "KIA CERATO Sedan (LD)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CLARUS (K9A)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA CLARUS Break (GC)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA JOICE",
+      "motorisations": []
+    },
+    {
+      "name": "KIA K2500 (SD)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA K2700 (SD)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA MAGENTIS (GD, MS)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA MAGENTIS (MG)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA NIRO",
+      "motorisations": [
+        "KIA NIRO1.6 GDI Hybrid"
+      ]
+    },
+    {
+      "name": "KIA OPIRUS (GH)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA OPTIMA",
+      "motorisations": []
+    },
+    {
+      "name": "KIA OPTIMA",
+      "motorisations": [
+        "KIA OPTIMA2.0 GDI Hybrid"
+      ]
+    },
+    {
+      "name": "KIA OPTIMA Sportswagon (JF)",
+      "motorisations": [
+        "KIA OPTIMA Sportswagon (JF)2.0 T-GDi"
+      ]
+    },
+    {
+      "name": "KIA PICANTO (JA)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA PICANTO (SA)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA PICANTO (TA)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA PREGIO Camionnette (TB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA PRIDE (DA)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA PRIDE Break",
+      "motorisations": []
+    },
+    {
+      "name": "KIA PRO CEE'D (ED)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA PRO CEE´D (JD)",
+      "motorisations": [
+        "KIA PRO CEE´D (JD)1.0 T-GDI",
+        "KIA PRO CEE´D (JD)1.4 MPI",
+        "KIA PRO CEE´D (JD)1.6 GDI"
+      ]
+    },
+    {
+      "name": "KIA QUORIS",
+      "motorisations": []
+    },
+    {
+      "name": "KIA RETONA (CE)",
+      "motorisations": [
+        "KIA RETONA (CE)2.0 TD"
+      ]
+    },
+    {
+      "name": "KIA RIO Break (DC)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA RIO II (JB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA RIO II Sedan (JB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA RIO III (UB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA RIO III Sedan (UB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA RIO IV (YB, SC)",
+      "motorisations": [
+        "KIA RIO IV (YB, SC)1.0 T-GDI 100"
+      ]
+    },
+    {
+      "name": "KIA RIO Sedan (DC_)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA ROADSTER",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SEPHIA (FA)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SEPHIA Sedan (FA)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SHUMA (FB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SHUMA II (FB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SHUMA II Sedan (FB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SHUMA Sedan (FB)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SORENTO I (JC)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SORENTO II (XM)",
+      "motorisations": [
+        "KIA SORENTO II (XM)2.4 GDI",
+        "KIA SORENTO II (XM)2.4 GDI 4WD"
+      ]
+    },
+    {
+      "name": "KIA SORENTO III (UM)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SORENTO IV (MQ4, MQ4A)",
+      "motorisations": [
+        "KIA SORENTO IV (MQ4, MQ4A)1.6 T-GDi Hybrid"
+      ]
+    },
+    {
+      "name": "KIA SOUL (AM)",
+      "motorisations": [
+        "KIA SOUL (AM)1.6 GDI"
+      ]
+    },
+    {
+      "name": "KIA SOUL II (PS)",
+      "motorisations": [
+        "KIA SOUL II (PS)1.6 GDI"
+      ]
+    },
+    {
+      "name": "KIA SPORTAGE (JE_, KM_)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SPORTAGE (K00)",
+      "motorisations": []
+    },
+    {
+      "name": "KIA SPORTAGE (QL, QLE)",
+      "motorisations": [
+        "KIA SPORTAGE (QL, QLE)1.6 GDI",
+        "KIA SPORTAGE (QL, QLE)1.6 GDI AWD"
+      ]
+    },
+    {
+      "name": "KIA SPORTAGE (SL)",
+      "motorisations": [
+        "KIA SPORTAGE (SL)1.6 GDI",
+        "KIA SPORTAGE (SL)2.0 GDI",
+        "KIA SPORTAGE (SL)2.0 GDI AWD"
+      ]
+    },
+    {
+      "name": "KIA VENGA (YN)",
+      "motorisations": []
+    }
+  ]
+}

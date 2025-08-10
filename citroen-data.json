@@ -1,0 +1,748 @@
+{
+  "brand": "Citroen",
+  "models": [
+    {
+      "name": "CITROËN AX (ZA-_)",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN BERLINGO (B9)",
+      "motorisations": [
+        "CITROËN BERLINGO (B9)1.6 BlueHDi 100",
+        "CITROËN BERLINGO (B9)1.6 BlueHDi 120",
+        "CITROËN BERLINGO (B9)1.6 HDi 110",
+        "CITROËN BERLINGO (B9)1.6 HDi 115",
+        "CITROËN BERLINGO (B9)1.6 HDi 115 4x4",
+        "CITROËN BERLINGO (B9)1.6 HDi 75 / BlueHDi 75",
+        "CITROËN BERLINGO (B9)1.6 HDi 75 16V",
+        "CITROËN BERLINGO (B9)1.6 HDi 90",
+        "CITROËN BERLINGO (B9)1.6 HDi 90 4x4",
+        "CITROËN BERLINGO (B9)1.6 VTi 120",
+        "CITROËN BERLINGO (B9)1.6 VTi 95"
+      ]
+    },
+    {
+      "name": "CITROËN BERLINGO / BERLINGO FIRST Camionnette (M_)",
+      "motorisations": [
+        "CITROËN BERLINGO / BERLINGO FIRST Camionnette (M_)1.6 HDI 75 (MB9HW)",
+        "CITROËN BERLINGO / BERLINGO FIRST Camionnette (M_)1.6 HDI 90 (MB9HX, MC9HX)",
+        "CITROËN BERLINGO / BERLINGO FIRST Camionnette (M_)2.0 HDI 90 (MBRHY, MCRHY)",
+        "CITROËN BERLINGO / BERLINGO FIRST Camionnette (M_)2.0 HDI 90 4WD (MBRHY, MCRHY)"
+      ]
+    },
+    {
+      "name": "CITROËN BERLINGO / BERLINGO FIRST Monospace (MF, GJK, GFK)",
+      "motorisations": [
+        "CITROËN BERLINGO / BERLINGO FIRST Monospace (MF, GJK, GFK)1.6 HDI 75 (MF9HW, GJ9HWC, GF9HWC, GN9HWC)",
+        "CITROËN BERLINGO / BERLINGO FIRST Monospace (MF, GJK, GFK)1.6 HDI 90 (MF9HX)",
+        "CITROËN BERLINGO / BERLINGO FIRST Monospace (MF, GJK, GFK)2.0 HDI 90 (MFRHY)"
+      ]
+    },
+    {
+      "name": "CITROËN BERLINGO Box Body/MPV (K9)",
+      "motorisations": [
+        "CITROËN BERLINGO Box Body/MPV (K9)1.6 BlueHDi 75"
+      ]
+    },
+    {
+      "name": "CITROËN BERLINGO Camion plate-forme/Châssis (B9)",
+      "motorisations": [
+        "CITROËN BERLINGO Camion plate-forme/Châssis (B9)1.6 BlueHDi 100",
+        "CITROËN BERLINGO Camion plate-forme/Châssis (B9)1.6 HDi 90 16V",
+        "CITROËN BERLINGO Camion plate-forme/Châssis (B9)1.6 HDi 92"
+      ]
+    },
+    {
+      "name": "CITROËN BERLINGO Camionnette (B9)",
+      "motorisations": [
+        "CITROËN BERLINGO Camionnette (B9)1.6 BlueHDi 100",
+        "CITROËN BERLINGO Camionnette (B9)1.6 BlueHDi 100 4x4",
+        "CITROËN BERLINGO Camionnette (B9)1.6 BlueHDi 120",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi / BlueHDi 75",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi 110",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi 115",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi 75",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi 75 4x4",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi 90",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi 90 16V",
+        "CITROËN BERLINGO Camionnette (B9)1.6 HDi 90 4x4",
+        "CITROËN BERLINGO Camionnette (B9)1.6 VTi 120",
+        "CITROËN BERLINGO Camionnette (B9)1.6 VTi 95"
+      ]
+    },
+    {
+      "name": "CITROËN BX (XB-_)",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN BX Break (XB-_)",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C-CROSSER (EP_)",
+      "motorisations": [
+        "CITROËN C-CROSSER (EP_)2.2 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C-CROSSER ENTERPRISE",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C-ELYSEE",
+      "motorisations": [
+        "CITROËN C-ELYSEE1.2 VTi 72",
+        "CITROËN C-ELYSEE1.2 VTi 82",
+        "CITROËN C-ELYSEE1.6 HDI 92",
+        "CITROËN C-ELYSEE1.6 VTi 115"
+      ]
+    },
+    {
+      "name": "CITROËN C-ZERO",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C1 (PM_, PN_)",
+      "motorisations": [
+        "CITROËN C1 (PM_, PN_)1.4 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C1 II (PA_, PS_)",
+      "motorisations": [
+        "CITROËN C1 II (PA_, PS_)1.0 VTi 68",
+        "CITROËN C1 II (PA_, PS_)1.2 VTi 82"
+      ]
+    },
+    {
+      "name": "CITROËN C15 (VD-_)",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C2 (JM_)",
+      "motorisations": [
+        "CITROËN C2 (JM_)1.4 HDi",
+        "CITROËN C2 (JM_)1.6 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C25 Autobus/Autocar (280_, 290_)",
+      "motorisations": [
+        "CITROËN C25 Autobus/Autocar (280_, 290_)1.9 TD"
+      ]
+    },
+    {
+      "name": "CITROËN C25 Camion plate-forme/Châssis (280_, 290_)",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C25 Camionnette (280_, 290_)",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C3 AIRCROSS II",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C3 I (FC_, FN_)",
+      "motorisations": [
+        "CITROËN C3 I (FC_, FN_)1.4 16V HDi",
+        "CITROËN C3 I (FC_, FN_)1.4 HDi",
+        "CITROËN C3 I (FC_, FN_)1.6 16V HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C3 II (SC_)",
+      "motorisations": [
+        "CITROËN C3 II (SC_)1.0 VTi 68",
+        "CITROËN C3 II (SC_)1.2 VTi 82",
+        "CITROËN C3 II (SC_)1.4 HDi 70",
+        "CITROËN C3 II (SC_)1.4 VTi 95",
+        "CITROËN C3 II (SC_)1.6 BlueHDi 100",
+        "CITROËN C3 II (SC_)1.6 BlueHDi 75",
+        "CITROËN C3 II (SC_)1.6 HDi",
+        "CITROËN C3 II (SC_)1.6 HDi 110",
+        "CITROËN C3 II (SC_)1.6 HDi 115",
+        "CITROËN C3 II (SC_)1.6 HDi 90",
+        "CITROËN C3 II (SC_)1.6 VTi 120"
+      ]
+    },
+    {
+      "name": "CITROËN C3 III (SX)",
+      "motorisations": [
+        "CITROËN C3 III (SX)1.2 VTi 68",
+        "CITROËN C3 III (SX)1.2 VTi 82",
+        "CITROËN C3 III (SX)1.6 BlueHDi 100",
+        "CITROËN C3 III (SX)1.6 BlueHDi 75"
+      ]
+    },
+    {
+      "name": "CITROËN C3 Picasso",
+      "motorisations": [
+        "CITROËN C3 Picasso1.4 VTi 95",
+        "CITROËN C3 Picasso1.6 BlueHDi 100",
+        "CITROËN C3 Picasso1.6 HDi",
+        "CITROËN C3 Picasso1.6 HDi 110",
+        "CITROËN C3 Picasso1.6 HDi 115",
+        "CITROËN C3 Picasso1.6 HDI 90",
+        "CITROËN C3 Picasso1.6 VTi",
+        "CITROËN C3 Picasso1.6 VTi 120"
+      ]
+    },
+    {
+      "name": "CITROËN C3 Pluriel (HB_)",
+      "motorisations": [
+        "CITROËN C3 Pluriel (HB_)1.4 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C35 Pick-up",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN C4 AIRCROSS",
+      "motorisations": [
+        "CITROËN C4 AIRCROSS1.6 HDi 115",
+        "CITROËN C4 AIRCROSS1.6 HDi 115 AWC",
+        "CITROËN C4 AIRCROSS1.8 HDi 150",
+        "CITROËN C4 AIRCROSS1.8 HDi 150 AWC"
+      ]
+    },
+    {
+      "name": "CITROËN C4 CACTUS",
+      "motorisations": [
+        "CITROËN C4 CACTUS1.2 VTi 75",
+        "CITROËN C4 CACTUS1.2 VTi 82",
+        "CITROËN C4 CACTUS1.6 BlueHDi 100",
+        "CITROËN C4 CACTUS1.6 HDi 90"
+      ]
+    },
+    {
+      "name": "CITROËN C4 Coupé (LA_)",
+      "motorisations": [
+        "CITROËN C4 Coupé (LA_)1.6 HDi",
+        "CITROËN C4 Coupé (LA_)1.6 VTi 120",
+        "CITROËN C4 Coupé (LA_)2.0 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C4 Grand Picasso I (UA_)",
+      "motorisations": [
+        "CITROËN C4 Grand Picasso I (UA_)1.6 HDi",
+        "CITROËN C4 Grand Picasso I (UA_)1.6 HDi 110",
+        "CITROËN C4 Grand Picasso I (UA_)1.6 VTi 120",
+        "CITROËN C4 Grand Picasso I (UA_)2.0 HDi 138",
+        "CITROËN C4 Grand Picasso I (UA_)2.0 HDi 150",
+        "CITROËN C4 Grand Picasso I (UA_)2.0 HDi 165"
+      ]
+    },
+    {
+      "name": "CITROËN C4 Grand Picasso II",
+      "motorisations": [
+        "CITROËN C4 Grand Picasso II1.6 BlueHDi 100",
+        "CITROËN C4 Grand Picasso II1.6 BlueHDi 120",
+        "CITROËN C4 Grand Picasso II1.6 HDi / BlueHDi 115",
+        "CITROËN C4 Grand Picasso II1.6 HDi 90",
+        "CITROËN C4 Grand Picasso II1.6 VTi 120",
+        "CITROËN C4 Grand Picasso II2.0 BlueHDi 150"
+      ]
+    },
+    {
+      "name": "CITROËN C4 I (LC_)",
+      "motorisations": [
+        "CITROËN C4 I (LC_)1.6 HDi",
+        "CITROËN C4 I (LC_)1.6 VTi 120",
+        "CITROËN C4 I (LC_)2.0 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C4 II (B7)",
+      "motorisations": [
+        "CITROËN C4 II (B7)1.4 VTi 95",
+        "CITROËN C4 II (B7)1.6 BlueHDi 100",
+        "CITROËN C4 II (B7)1.6 BlueHDi 115",
+        "CITROËN C4 II (B7)1.6 BlueHDi 120",
+        "CITROËN C4 II (B7)1.6 HDi 110",
+        "CITROËN C4 II (B7)1.6 HDi 115",
+        "CITROËN C4 II (B7)1.6 HDi 90",
+        "CITROËN C4 II (B7)1.6 VTi 120",
+        "CITROËN C4 II (B7)2.0 HDi / BlueHDi 150"
+      ]
+    },
+    {
+      "name": "CITROËN C4 Picasso I Monospace (UD_)",
+      "motorisations": [
+        "CITROËN C4 Picasso I Monospace (UD_)1.6 HDi",
+        "CITROËN C4 Picasso I Monospace (UD_)1.6 HDi 110",
+        "CITROËN C4 Picasso I Monospace (UD_)1.6 VTi 120",
+        "CITROËN C4 Picasso I Monospace (UD_)2.0 HDi 138",
+        "CITROËN C4 Picasso I Monospace (UD_)2.0 HDi 150",
+        "CITROËN C4 Picasso I Monospace (UD_)2.0 HDi 165"
+      ]
+    },
+    {
+      "name": "CITROËN C4 Picasso II",
+      "motorisations": [
+        "CITROËN C4 Picasso II1.6 BlueHDi 100",
+        "CITROËN C4 Picasso II1.6 BlueHDi 120",
+        "CITROËN C4 Picasso II1.6 HDi / BlueHDi 115",
+        "CITROËN C4 Picasso II1.6 HDi 90",
+        "CITROËN C4 Picasso II1.6 VTi 120",
+        "CITROËN C4 Picasso II2.0 BlueHDi 150"
+      ]
+    },
+    {
+      "name": "CITROËN C4 PICASSO II Van (DD_)",
+      "motorisations": [
+        "CITROËN C4 PICASSO II Van (DD_)e-HDi (DD9HC8, DD9HCT)"
+      ]
+    },
+    {
+      "name": "CITROËN C5 I (DC_)",
+      "motorisations": [
+        "CITROËN C5 I (DC_)2.0 HDi",
+        "CITROËN C5 I (DC_)2.0 HDi (DCRHYB)",
+        "CITROËN C5 I (DC_)2.0 HDi (DCRHZB, DCRHZE)",
+        "CITROËN C5 I (DC_)2.2 HDi (DC4HXB, DC4HXE)"
+      ]
+    },
+    {
+      "name": "CITROËN C5 I Break (DE_)",
+      "motorisations": [
+        "CITROËN C5 I Break (DE_)2.0 HDi",
+        "CITROËN C5 I Break (DE_)2.0 HDi (DERHSB, DERHSE)",
+        "CITROËN C5 I Break (DE_)2.0 HDi (DERHYB)",
+        "CITROËN C5 I Break (DE_)2.2 HDi (DE4HXB, DE4HXE)"
+      ]
+    },
+    {
+      "name": "CITROËN C5 II (RC_)",
+      "motorisations": [
+        "CITROËN C5 II (RC_)1.6 HDi (RC8HZB)",
+        "CITROËN C5 II (RC_)2.0 HDi (RCRHRH)",
+        "CITROËN C5 II (RC_)2.2 HDi",
+        "CITROËN C5 II (RC_)2.2 HDi (RC4HXE)"
+      ]
+    },
+    {
+      "name": "CITROËN C5 II Break (RE_)",
+      "motorisations": [
+        "CITROËN C5 II Break (RE_)1.6 HDi (RE8HZB)",
+        "CITROËN C5 II Break (RE_)2.0 HDi (RERHRH)",
+        "CITROËN C5 II Break (RE_)2.2 HDi",
+        "CITROËN C5 II Break (RE_)2.2 HDi (RE4HXE)"
+      ]
+    },
+    {
+      "name": "CITROËN C5 III (RD_)",
+      "motorisations": [
+        "CITROËN C5 III (RD_)1.6 HDi 110",
+        "CITROËN C5 III (RD_)1.6 HDi 115",
+        "CITROËN C5 III (RD_)1.6 VTi 120",
+        "CITROËN C5 III (RD_)2.0 HDi",
+        "CITROËN C5 III (RD_)2.0 HDi 140",
+        "CITROËN C5 III (RD_)2.0 HDi 150 / BlueHDi 150",
+        "CITROËN C5 III (RD_)2.0 HDi 165",
+        "CITROËN C5 III (RD_)2.0 HDi 180",
+        "CITROËN C5 III (RD_)2.2 HDi",
+        "CITROËN C5 III (RD_)2.2 HDi 200",
+        "CITROËN C5 III (RD_)2.7 HDi",
+        "CITROËN C5 III (RD_)3.0 HDi 240"
+      ]
+    },
+    {
+      "name": "CITROËN C5 III Break (RW_)",
+      "motorisations": [
+        "CITROËN C5 III Break (RW_)1.6 HDi 110",
+        "CITROËN C5 III Break (RW_)1.6 HDi 115",
+        "CITROËN C5 III Break (RW_)1.6 VTI 120",
+        "CITROËN C5 III Break (RW_)2.0 HDi 140",
+        "CITROËN C5 III Break (RW_)2.0 HDi 150 / BlueHDi 150",
+        "CITROËN C5 III Break (RW_)2.0 HDi 165",
+        "CITROËN C5 III Break (RW_)2.0 HDi 180",
+        "CITROËN C5 III Break (RW_)2.2 HDi",
+        "CITROËN C5 III Break (RW_)2.2 HDi 165",
+        "CITROËN C5 III Break (RW_)2.2 HDi 200",
+        "CITROËN C5 III Break (RW_)2.7 HDi",
+        "CITROËN C5 III Break (RW_)3.0 HDi 240"
+      ]
+    },
+    {
+      "name": "CITROËN C6 (TD_)",
+      "motorisations": [
+        "CITROËN C6 (TD_)2.2 HDi",
+        "CITROËN C6 (TD_)3.0 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN C8 (EA_, EB_)",
+      "motorisations": [
+        "CITROËN C8 (EA_, EB_)2.0 HDi",
+        "CITROËN C8 (EA_, EB_)2.0 HDi 135",
+        "CITROËN C8 (EA_, EB_)2.0 HDi 165",
+        "CITROËN C8 (EA_, EB_)2.2 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN CX II",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN CX II Break",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN DS3",
+      "motorisations": [
+        "CITROËN DS31.2 VTi 82",
+        "CITROËN DS31.4 VTi 95",
+        "CITROËN DS31.4 VTi 98",
+        "CITROËN DS31.6 BlueHDi 100",
+        "CITROËN DS31.6 BlueHDi 120",
+        "CITROËN DS31.6 HDi 110",
+        "CITROËN DS31.6 HDi 115",
+        "CITROËN DS31.6 HDi 90",
+        "CITROËN DS31.6 VTi 120"
+      ]
+    },
+    {
+      "name": "CITROËN DS3 Décapotable",
+      "motorisations": [
+        "CITROËN DS3 Décapotable1.2 VTi 82",
+        "CITROËN DS3 Décapotable1.6 BlueHDi 100",
+        "CITROËN DS3 Décapotable1.6 BlueHDi 120",
+        "CITROËN DS3 Décapotable1.6 HDi 90",
+        "CITROËN DS3 Décapotable1.6 VTi 120"
+      ]
+    },
+    {
+      "name": "CITROËN DS4",
+      "motorisations": [
+        "CITROËN DS41.6 BlueHDi 120",
+        "CITROËN DS41.6 HDi 110",
+        "CITROËN DS41.6 HDi 115",
+        "CITROËN DS41.6 HDi 90",
+        "CITROËN DS41.6 VTi 120",
+        "CITROËN DS42.0 BlueHDi 150",
+        "CITROËN DS42.0 BlueHDi 180",
+        "CITROËN DS42.0 HDi / BlueHDi 135",
+        "CITROËN DS42.0 HDi 165"
+      ]
+    },
+    {
+      "name": "CITROËN DS5",
+      "motorisations": [
+        "CITROËN DS51.6 BlueHDi 120",
+        "CITROËN DS51.6 HDi",
+        "CITROËN DS51.6 HDi 110",
+        "CITROËN DS52.0 BlueHDi 150",
+        "CITROËN DS52.0 BlueHDi 180",
+        "CITROËN DS52.0 HDi 135",
+        "CITROËN DS52.0 HDi 165",
+        "CITROËN DS52.0 HDi 165 Hybrid4 4x4"
+      ]
+    },
+    {
+      "name": "CITROËN E-MEHARI",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN EVASION Monospace (22, U6)",
+      "motorisations": [
+        "CITROËN EVASION Monospace (22, U6)1.9 TD",
+        "CITROËN EVASION Monospace (22, U6)2.0 HDI",
+        "CITROËN EVASION Monospace (22, U6)2.0 HDI 16V",
+        "CITROËN EVASION Monospace (22, U6)2.1 TD"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Autobus/Autocar",
+      "motorisations": [
+        "CITROËN JUMPER Autobus/Autocar2.0 BlueHDi 110",
+        "CITROËN JUMPER Autobus/Autocar2.0 BlueHDi 130",
+        "CITROËN JUMPER Autobus/Autocar2.0 BlueHDi 160",
+        "CITROËN JUMPER Autobus/Autocar2.2 HDi 100",
+        "CITROËN JUMPER Autobus/Autocar2.2 HDi 110",
+        "CITROËN JUMPER Autobus/Autocar2.2 HDi 120",
+        "CITROËN JUMPER Autobus/Autocar2.2 HDi 130",
+        "CITROËN JUMPER Autobus/Autocar2.2 HDi 150",
+        "CITROËN JUMPER Autobus/Autocar3.0 HDi 155",
+        "CITROËN JUMPER Autobus/Autocar3.0 HDi 160",
+        "CITROËN JUMPER Autobus/Autocar3.0 HDi 180"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Autobus/Autocar (230P)",
+      "motorisations": [
+        "CITROËN JUMPER Autobus/Autocar (230P)1.9 TD",
+        "CITROËN JUMPER Autobus/Autocar (230P)1.9 TD 4x4",
+        "CITROËN JUMPER Autobus/Autocar (230P)2.5 TD",
+        "CITROËN JUMPER Autobus/Autocar (230P)2.5 TD 4x4",
+        "CITROËN JUMPER Autobus/Autocar (230P)2.5 TDi",
+        "CITROËN JUMPER Autobus/Autocar (230P)2.5 TDI 4x4",
+        "CITROËN JUMPER Autobus/Autocar (230P)2.8 HDi",
+        "CITROËN JUMPER Autobus/Autocar (230P)2.8 HDi 4x4"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Autobus/Autocar (244, Z_)",
+      "motorisations": [
+        "CITROËN JUMPER Autobus/Autocar (244, Z_)2.0 HDi",
+        "CITROËN JUMPER Autobus/Autocar (244, Z_)2.2 HDi",
+        "CITROËN JUMPER Autobus/Autocar (244, Z_)2.8 HDi",
+        "CITROËN JUMPER Autobus/Autocar (244, Z_)2.8 HDi Traction intégrale"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Camion plate-forme/Châssis",
+      "motorisations": [
+        "CITROËN JUMPER Camion plate-forme/Châssis2.0 BlueHDi 110",
+        "CITROËN JUMPER Camion plate-forme/Châssis2.0 BlueHDi 130",
+        "CITROËN JUMPER Camion plate-forme/Châssis2.0 BlueHDi 160",
+        "CITROËN JUMPER Camion plate-forme/Châssis2.2 HDi 100",
+        "CITROËN JUMPER Camion plate-forme/Châssis2.2 HDi 110",
+        "CITROËN JUMPER Camion plate-forme/Châssis2.2 HDi 120",
+        "CITROËN JUMPER Camion plate-forme/Châssis2.2 HDi 130",
+        "CITROËN JUMPER Camion plate-forme/Châssis2.2 HDi 150",
+        "CITROËN JUMPER Camion plate-forme/Châssis3.0 HDi 145",
+        "CITROËN JUMPER Camion plate-forme/Châssis3.0 HDi 160",
+        "CITROËN JUMPER Camion plate-forme/Châssis3.0 HDi 180"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Camion plate-forme/Châssis (230)",
+      "motorisations": [
+        "CITROËN JUMPER Camion plate-forme/Châssis (230)1.9 TD",
+        "CITROËN JUMPER Camion plate-forme/Châssis (230)2.5 TD",
+        "CITROËN JUMPER Camion plate-forme/Châssis (230)2.5 TDi",
+        "CITROËN JUMPER Camion plate-forme/Châssis (230)2.5 TDi 4x4",
+        "CITROËN JUMPER Camion plate-forme/Châssis (230)2.8 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Camion plate-forme/Châssis (244)",
+      "motorisations": [
+        "CITROËN JUMPER Camion plate-forme/Châssis (244)2.0 HDi",
+        "CITROËN JUMPER Camion plate-forme/Châssis (244)2.2 HDi",
+        "CITROËN JUMPER Camion plate-forme/Châssis (244)2.8 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Camionnette",
+      "motorisations": [
+        "CITROËN JUMPER Camionnette2.0 BlueHDi 110",
+        "CITROËN JUMPER Camionnette2.0 BlueHDi 130",
+        "CITROËN JUMPER Camionnette2.0 BlueHDi 160",
+        "CITROËN JUMPER Camionnette2.2 HDi 100",
+        "CITROËN JUMPER Camionnette2.2 HDi 110",
+        "CITROËN JUMPER Camionnette2.2 HDi 120",
+        "CITROËN JUMPER Camionnette2.2 HDi 130",
+        "CITROËN JUMPER Camionnette2.2 HDi 130 4x4",
+        "CITROËN JUMPER Camionnette2.2 HDi 150",
+        "CITROËN JUMPER Camionnette3.0 HDi 145",
+        "CITROËN JUMPER Camionnette3.0 HDi 155",
+        "CITROËN JUMPER Camionnette3.0 HDi 160",
+        "CITROËN JUMPER Camionnette3.0 HDi 180"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Camionnette (230L)",
+      "motorisations": [
+        "CITROËN JUMPER Camionnette (230L)1.9 TD",
+        "CITROËN JUMPER Camionnette (230L)2.0 HDI",
+        "CITROËN JUMPER Camionnette (230L)2.5 TD",
+        "CITROËN JUMPER Camionnette (230L)2.5 TDi",
+        "CITROËN JUMPER Camionnette (230L)2.5 TDi 4x4",
+        "CITROËN JUMPER Camionnette (230L)2.8 HDi",
+        "CITROËN JUMPER Camionnette (230L)2.8 HDi 4x4"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPER Camionnette (244)",
+      "motorisations": [
+        "CITROËN JUMPER Camionnette (244)2.0 HDi",
+        "CITROËN JUMPER Camionnette (244)2.2 HDi",
+        "CITROËN JUMPER Camionnette (244)2.8 HDi",
+        "CITROËN JUMPER Camionnette (244)2.8 HDi 4x4"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPY (U6U)",
+      "motorisations": [
+        "CITROËN JUMPY (U6U)1.9 TD",
+        "CITROËN JUMPY (U6U)2.0 HDi 110",
+        "CITROËN JUMPY (U6U)2.0 HDi 95"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPY (VA_, VE_)",
+      "motorisations": [
+        "CITROËN JUMPY (VA_, VE_)1.6 BlueHDi 115",
+        "CITROËN JUMPY (VA_, VE_)1.6 BlueHDi 95",
+        "CITROËN JUMPY (VA_, VE_)2.0 BlueHDi 150"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPY (VF7)",
+      "motorisations": [
+        "CITROËN JUMPY (VF7)1.6 HDi 90 16V",
+        "CITROËN JUMPY (VF7)1.6 HDi 90 8V",
+        "CITROËN JUMPY (VF7)2.0 HDi 120",
+        "CITROËN JUMPY (VF7)2.0 HDi 125",
+        "CITROËN JUMPY (VF7)2.0 HDi 140",
+        "CITROËN JUMPY (VF7)2.0 HDi 165",
+        "CITROËN JUMPY (VF7)2.0 HDi 95"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPY Camion plate-forme/Châssis (BU_, BV_, BW_, BX_)",
+      "motorisations": [
+        "CITROËN JUMPY Camion plate-forme/Châssis (BU_, BV_, BW_, BX_)1.9 TD",
+        "CITROËN JUMPY Camion plate-forme/Châssis (BU_, BV_, BW_, BX_)2.0 HDi 110 16V",
+        "CITROËN JUMPY Camion plate-forme/Châssis (BU_, BV_, BW_, BX_)2.0 HDi 95"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPY Camionnette",
+      "motorisations": [
+        "CITROËN JUMPY Camionnette1.6 BlueHDi 115",
+        "CITROËN JUMPY Camionnette1.6 BlueHDi 95",
+        "CITROËN JUMPY Camionnette2.0 BlueHDi 120",
+        "CITROËN JUMPY Camionnette2.0 BlueHDi 150",
+        "CITROËN JUMPY Camionnette2.0 BlueHDi 180"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPY Camionnette",
+      "motorisations": [
+        "CITROËN JUMPY Camionnette1.6 HDi 90 16V",
+        "CITROËN JUMPY Camionnette1.6 HDi 90 8V",
+        "CITROËN JUMPY Camionnette2.0 HDi 120",
+        "CITROËN JUMPY Camionnette2.0 HDi 125",
+        "CITROËN JUMPY Camionnette2.0 HDi 140",
+        "CITROËN JUMPY Camionnette2.0 HDi 165",
+        "CITROËN JUMPY Camionnette2.0 HDi 95"
+      ]
+    },
+    {
+      "name": "CITROËN JUMPY Camionnette (BS_, BT_, BY_, BZ_)",
+      "motorisations": [
+        "CITROËN JUMPY Camionnette (BS_, BT_, BY_, BZ_)1.9 TD",
+        "CITROËN JUMPY Camionnette (BS_, BT_, BY_, BZ_)2.0 HDi 110",
+        "CITROËN JUMPY Camionnette (BS_, BT_, BY_, BZ_)2.0 HDi 95"
+      ]
+    },
+    {
+      "name": "CITROËN NEMO Break",
+      "motorisations": [
+        "CITROËN NEMO Break1.3 HDi 75",
+        "CITROËN NEMO Break1.4 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN NEMO Camionnette (AA_)",
+      "motorisations": [
+        "CITROËN NEMO Camionnette (AA_)1.3 HDi 75",
+        "CITROËN NEMO Camionnette (AA_)1.4 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN SAXO (S0, S1)",
+      "motorisations": []
+    },
+    {
+      "name": "CITROËN SPACETOURER",
+      "motorisations": [
+        "CITROËN SPACETOURER1.6 BlueHDi 115",
+        "CITROËN SPACETOURER1.6 BlueHDi 95",
+        "CITROËN SPACETOURER2.0 BlueHDi 120",
+        "CITROËN SPACETOURER2.0 BlueHDi 150",
+        "CITROËN SPACETOURER2.0 BlueHDi 180"
+      ]
+    },
+    {
+      "name": "CITROËN XANTIA (X1)",
+      "motorisations": [
+        "CITROËN XANTIA (X1)2.0 HDI 109",
+        "CITROËN XANTIA (X1)2.0 HDI 90"
+      ]
+    },
+    {
+      "name": "CITROËN XANTIA Break (X1)",
+      "motorisations": [
+        "CITROËN XANTIA Break (X1)2.0 HDI 109",
+        "CITROËN XANTIA Break (X1)2.0 HDI 90"
+      ]
+    },
+    {
+      "name": "CITROËN XM (Y3)",
+      "motorisations": [
+        "CITROËN XM (Y3)2.1 TD 12V"
+      ]
+    },
+    {
+      "name": "CITROËN XM (Y4)",
+      "motorisations": [
+        "CITROËN XM (Y4)2.1 TD 12V",
+        "CITROËN XM (Y4)2.5 TD"
+      ]
+    },
+    {
+      "name": "CITROËN XM Break (Y3)",
+      "motorisations": [
+        "CITROËN XM Break (Y3)2.1 TD 12V"
+      ]
+    },
+    {
+      "name": "CITROËN XM Break (Y4)",
+      "motorisations": [
+        "CITROËN XM Break (Y4)2.1 TD 12V",
+        "CITROËN XM Break (Y4)2.5 TD"
+      ]
+    },
+    {
+      "name": "CITROËN XSARA (N1)",
+      "motorisations": [
+        "CITROËN XSARA (N1)1.4 HDi",
+        "CITROËN XSARA (N1)1.9 TD",
+        "CITROËN XSARA (N1)2.0 HDi 109",
+        "CITROËN XSARA (N1)2.0 HDi 90"
+      ]
+    },
+    {
+      "name": "CITROËN XSARA Break (N2)",
+      "motorisations": [
+        "CITROËN XSARA Break (N2)1.4 HDi",
+        "CITROËN XSARA Break (N2)1.9 TD",
+        "CITROËN XSARA Break (N2)2.0 HDi 109",
+        "CITROËN XSARA Break (N2)2.0 HDI 90"
+      ]
+    },
+    {
+      "name": "CITROËN XSARA Coupé (N0)",
+      "motorisations": [
+        "CITROËN XSARA Coupé (N0)1.4 HDi",
+        "CITROËN XSARA Coupé (N0)1.9 TD",
+        "CITROËN XSARA Coupé (N0)2.0 HDi 109",
+        "CITROËN XSARA Coupé (N0)2.0 HDI 90"
+      ]
+    },
+    {
+      "name": "CITROËN XSARA PICASSO (N68)",
+      "motorisations": [
+        "CITROËN XSARA PICASSO (N68)1.6 HDi",
+        "CITROËN XSARA PICASSO (N68)2.0 HDi"
+      ]
+    },
+    {
+      "name": "CITROËN ZX (N2)",
+      "motorisations": [
+        "CITROËN ZX (N2)1.9 TD"
+      ]
+    },
+    {
+      "name": "CITROËN ZX Break (N2)",
+      "motorisations": []
+    }
+  ]
+}

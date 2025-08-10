@@ -1,0 +1,263 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  logo        String?
+  photo       String?  // Added photo attribute for brand images
+  description String?
+  website     String?
+  country     String?
+  founded     Int?
+  models      Model[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("brands")
+}
+
+model Model {
+  id              String        @id @default(cuid())
+  name            String
+  brand           Brand         @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  brandId         String
+  generation      String?
+  startYear       Int?
+  endYear         Int?
+  bodyType        BodyType?
+  description     String?
+  motorisations   Motorisation[]
+  parts           Part[]
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@unique([name, brandId])
+  @@map("models")
+}
+
+model Motorisation {
+  id          String @id @default(cuid())
+  name        String // e.g., "PEUGEOT 2008 (CU_) 1.2 VTi"
+  engine      String // e.g., "1.2 VTi"
+  power       Int?   // in HP
+  torque      Int?   // in Nm
+  displacement Float? // in liters
+  cylinders   Int?
+  fuelType    FuelType?
+  transmission Transmission?
+  driveType   DriveType?
+  model       Model  @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  modelId     String
+  parts       PartMotorisation[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([name, modelId])
+  @@map("motorisations")
+}
+
+model Category {
+  id          String @id @default(cuid())
+  name        String @unique
+  description String?
+  image       String?
+  parentId    String?
+  parent      Category? @relation("CategoryHierarchy", fields: [parentId], references: [id])
+  children    Category[] @relation("CategoryHierarchy")
+  parts       Part[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("categories")
+}
+
+model Part {
+  id              String        @id @default(cuid())
+  name            String
+  partNumber      String        @unique
+  description     String?
+  price           Decimal       @db.Decimal(10, 2)
+  originalPrice   Decimal?      @db.Decimal(10, 2)
+  condition       Condition     @default(USED)
+  availability    Availability  @default(IN_STOCK)
+  warranty        Int?          // warranty in months
+  weight          Float?        // in kg
+  dimensions      String?       // LxWxH in cm
+  images          String[]      @default([])
+  manufacturer    String?
+  oem             String?       // Original Equipment Manufacturer number
+  
+  // Relations
+  category        Category      @relation(fields: [categoryId], references: [id])
+  categoryId      String
+  model           Model?        @relation(fields: [modelId], references: [id])
+  modelId         String?
+  // Technical specifications
+  engineCode      String?       // e.g., "BHY (DV6FD)"
+  capacity        String?       // e.g., "70 ml"
+  temperatureRange String?      // e.g., "50 °C, jusqu'à 320 °C"
+  color           String?       // e.g., "anthracite"
+  material        String?       // e.g., "Silicone"
+  chemicalProperties String?    // e.g., "ne contient pas de solvant, mastic, durcissant"
+  technicalSpecs  Json?         // For additional flexible specifications
+  
+  // Many-to-many relationship with motorisations for compatibility
+  motorisations   PartMotorisation[]
+  orderItems      OrderItem[]   // Relation to OrderItem
+  
+  // Compatibility
+  compatibleBrands String[]     @default([])
+  compatibleModels String[]     @default([])
+  compatibleYears  Int[]        @default([])
+  
+  // Inventory
+  stockQuantity   Int           @default(0)
+  location        String?       // warehouse location
+  supplier        String?
+  
+  // SEO and Search
+  tags            String[]      @default([])
+  searchKeywords  String[]      @default([])
+  
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@index([partNumber])
+  @@index([categoryId])
+  @@index([modelId])
+  @@index([condition])
+  @@index([availability])
+  @@map("parts")
+}
+
+// Junction table for Part-Motorisation many-to-many relationship
+model PartMotorisation {
+  id             String       @id @default(cuid())
+  part           Part         @relation(fields: [partId], references: [id], onDelete: Cascade)
+  partId         String
+  motorisation   Motorisation @relation(fields: [motorisationId], references: [id], onDelete: Cascade)
+  motorisationId String
+  createdAt      DateTime     @default(now())
+
+  @@unique([partId, motorisationId])
+  @@map("part_motorisations")
+}
+
+model Customer {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  firstName   String
+  lastName    String
+  phone       String?
+  address     String?
+  city        String?
+  postalCode  String?
+  country     String?
+  orders      Order[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("customers")
+}
+
+model Order {
+  id          String      @id @default(cuid())
+  orderNumber String      @unique
+  customer    Customer    @relation(fields: [customerId], references: [id])
+  customerId  String
+  status      OrderStatus @default(PENDING)
+  total       Decimal     @db.Decimal(10, 2)
+  subtotal    Decimal     @db.Decimal(10, 2)
+  tax         Decimal     @db.Decimal(10, 2)
+  shipping    Decimal     @db.Decimal(10, 2)
+  items       OrderItem[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  @@map("orders")
+}
+
+model OrderItem {
+  id       String  @id @default(cuid())
+  order    Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  orderId  String
+  part     Part    @relation(fields: [partId], references: [id])
+  partId   String
+  quantity Int
+  price    Decimal @db.Decimal(10, 2)
+
+  @@map("order_items")
+}
+
+// Enums
+enum BodyType {
+  SEDAN
+  HATCHBACK
+  SUV
+  COUPE
+  CONVERTIBLE
+  WAGON
+  PICKUP
+  VAN
+  MINIVAN
+  CROSSOVER
+}
+
+enum FuelType {
+  GASOLINE
+  DIESEL
+  HYBRID
+  ELECTRIC
+  PLUGIN_HYBRID
+  HYDROGEN
+  LPG
+  CNG
+}
+
+enum Transmission {
+  MANUAL
+  AUTOMATIC
+  CVT
+  SEMI_AUTOMATIC
+}
+
+enum DriveType {
+  FWD // Front Wheel Drive
+  RWD // Rear Wheel Drive
+  AWD // All Wheel Drive
+  FOUR_WD // 4 Wheel Drive
+}
+
+enum Condition {
+  NEW
+  USED
+  REFURBISHED
+  DAMAGED
+}
+
+enum Availability {
+  IN_STOCK
+  OUT_OF_STOCK
+  PREORDER
+  DISCONTINUED
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+  REFUNDED
+}
