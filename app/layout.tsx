@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "ZORRAGA - Sélecteur de Véhicules",
@@ -23,9 +24,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="min-h-screen bg-hero bg-fixed">
+            <div className="min-h-screen bg-hero bg-fixed">
             <div className="min-h-screen bg-hero-blur bg-background/95 backdrop-blur-sm dark:bg-background dark:backdrop-blur-md">
               {children}
+              <Analytics />
             </div>
           </div>
         </ThemeProvider>
