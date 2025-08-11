@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { CartProvider } from "@/components/cart-provider";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
@@ -26,8 +27,10 @@ export default function RootLayout({
         >
             <div className="min-h-screen bg-hero bg-fixed">
             <div className="min-h-screen bg-hero-blur bg-background/95 backdrop-blur-sm dark:bg-background dark:backdrop-blur-md">
-              {children}
-              <Analytics />
+              <CartProvider>
+                {children}
+                <Analytics />
+              </CartProvider>
             </div>
           </div>
         </ThemeProvider>

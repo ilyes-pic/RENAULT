@@ -13,9 +13,11 @@ import Image from "next/image";
 export default function HomePage() {
   const [showCarSelector, setShowCarSelector] = useState(false);
   const [selected, setSelected] = useState<{ brand?: any; model?: any; motorisation?: any }|null>(null);
-  const [categories, setCategories] = useState<any[]>([]);
+  const [mainCategories, setMainCategories] = useState<any[]>([]);
+  const [subCategories, setSubCategories] = useState<any[]>([]);
   const [showCategories, setShowCategories] = useState(false);
-  const [activeCategory, setActiveCategory] = useState<any|null>(null);
+  const [activeMainCategory, setActiveMainCategory] = useState<any|null>(null);
+  const [activeSubCategory, setActiveSubCategory] = useState<any|null>(null);
   const [parts, setParts] = useState<any[]>([]);
   const hasFullSelection = useMemo(() => !!(selected?.brand && selected?.model && selected?.motorisation), [selected]);
 
@@ -24,20 +26,25 @@ export default function HomePage() {
     async function load() {
       if (hasFullSelection) {
         try {
-          const r = await fetch('/api/categories');
+          // Use file system source to match partCategories/ structure
+          const r = await fetch('/api/categories?source=fs');
           const res = await r.json();
           if (!abort && res.success) {
-            const leaf = res.data.filter((c: any) => c.parent);
-            setCategories(leaf);
+            const mains = res.data.filter((c: any) => !c.parent);
+            setMainCategories(mains);
             setShowCategories(true);
-            setActiveCategory(null);
+            setActiveMainCategory(null);
+            setSubCategories([]);
+            setActiveSubCategory(null);
             setParts([]);
           }
         } catch {}
       } else {
         if (!abort) {
           setShowCategories(false);
-          setActiveCategory(null);
+          setActiveMainCategory(null);
+          setSubCategories([]);
+          setActiveSubCategory(null);
           setParts([]);
         }
       }
@@ -52,11 +59,19 @@ export default function HomePage() {
     return `/api/category-image?${params.toString()}`;
   };
 
-  const handleCategoryClick = async (category: any) => {
-    setActiveCategory(category);
+  const handleMainCategoryClick = (main: any) => {
+    setActiveMainCategory(main);
+    const subs = (main.children || []).sort((a: any, b: any) => a.name.localeCompare(b.name));
+    setSubCategories(subs);
+    setActiveSubCategory(null);
+    setParts([]);
+  };
+
+  const handleSubCategoryClick = async (sub: any) => {
+    setActiveSubCategory(sub);
     setParts([]);
     const params = new URLSearchParams({
-      categoryId: category.id,
+      categoryId: sub.id,
       motorisationId: selected?.motorisation?.id,
     } as any);
     const res = await fetch(`/api/parts?${params.toString()}`);
@@ -150,58 +165,6 @@ export default function HomePage() {
               }}
             />
           </div>
-
-          {showCategories && (
-            <div className="mt-10">
-              <h3 className="text-2xl font-semibold mb-4">Choisissez une catégorie</h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                {categories.map((cat) => (
-                  <button key={cat.id} onClick={() => handleCategoryClick(cat)} className={`text-left group border rounded-lg p-3 hover:border-primary transition-colors ${activeCategory?.id === cat.id ? 'border-primary' : 'border-muted'}`}>
-                    <div className="w-full aspect-square bg-muted rounded-lg flex items-center justify-center overflow-hidden mb-2">
-                      <img src={getCategoryImageApiUrl(cat.parent?.name, cat.name)} alt={`${cat.name}`} className="w-full h-full object-contain" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                    </div>
-                    <div className="text-sm font-medium">{cat.parent?.name}</div>
-                    <div className="text-sm text-muted-foreground">{cat.name}</div>
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-          {activeCategory && (
-            <div className="mt-8">
-              <h3 className="text-2xl font-semibold mb-4">Pièces disponibles</h3>
-              {parts.length === 0 ? (
-                <div className="text-muted-foreground">Aucune pièce trouvée pour cette catégorie.</div>
-              ) : (
-                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                  {parts.map((part) => (
-                    <Card key={part.id} className="group">
-                      <CardHeader>
-                        <CardTitle className="text-lg">{part.name}</CardTitle>
-                        <CardDescription>{part.partNumber}</CardDescription>
-                      </CardHeader>
-                      <CardContent className="space-y-3">
-                        {part.images && part.images.length > 0 && (
-                          <div className="flex space-x-2 overflow-x-auto">
-                            {part.images.slice(0, 3).map((url: string, i: number) => (
-                              <img key={i} src={url} alt={part.name} className="w-16 h-16 object-cover rounded-md border" />
-                            ))}
-                          </div>
-                        )}
-                        <div className="flex items-center justify-between">
-                          <div className="text-primary font-bold">{Number(part.price).toFixed(2)} €</div>
-                          <Button size="sm" variant="outline">Voir</Button>
-                        </div>
-                        <div className="text-xs text-muted-foreground">
-                          {part.category?.parent?.name} › {part.category?.name}
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
         </div>
       </section>
 

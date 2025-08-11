@@ -86,6 +86,7 @@ export async function PUT(
       warranty,
       weight,
       dimensions,
+      images = [],
       motorisationIds = []
     } = body;
 
@@ -139,6 +140,8 @@ export async function PUT(
         warranty: warranty !== undefined ? (warranty ? parseInt(warranty) : null) : existingPart.warranty,
         weight: weight !== undefined ? (weight ? parseFloat(weight) : null) : existingPart.weight,
         dimensions: dimensions !== undefined ? dimensions : existingPart.dimensions,
+        // Persist images updates
+        images: Array.isArray(images) ? (images as string[]) : existingPart.images,
         // Update motorisation relationships
         motorisations: {
           deleteMany: {}, // Remove all existing relationships

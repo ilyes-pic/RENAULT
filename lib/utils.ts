@@ -8,8 +8,9 @@ export function cn(...inputs: ClassValue[]) {
 export function formatPrice(price: number): string {
   return new Intl.NumberFormat('fr-FR', {
     style: 'currency',
-    currency: 'EUR',
-  }).format(price);
+    currency: 'TND',
+    currencyDisplay: 'code',
+  }).format(price).replace('TND', 'TND');
 }
 
 export function formatPartNumber(partNumber: string): string {

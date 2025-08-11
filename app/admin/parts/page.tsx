@@ -286,7 +286,7 @@ export default function PartsPage() {
                   </div>
                   <div className="text-right">
                     <div className="text-lg font-bold text-primary">
-                      {Number(part.price).toFixed(2)} €
+                     {Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'TND', currencyDisplay: 'code' }).format(Number(part.price)).replace('TND', 'TND')}
                     </div>
                     <div className={cn("text-sm font-medium", availabilityColors[part.availability])}>
                       {availabilityLabels[part.availability]}

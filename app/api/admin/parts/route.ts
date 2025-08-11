@@ -124,6 +124,7 @@ export async function POST(request: NextRequest) {
       warranty,
       weight,
       dimensions,
+      images = [],
       motorisationIds = []
     } = body;
 
@@ -179,6 +180,8 @@ export async function POST(request: NextRequest) {
         warranty: warranty ? parseInt(warranty) : null,
         weight: weight ? parseFloat(weight) : null,
         dimensions: dimensions || null,
+        // Persist images uploaded via /api/admin/parts/upload-images
+        images: Array.isArray(images) ? (images as string[]) : [],
         // Create motorisation relationships
         motorisations: {
           create: motorisationIds.map((motorisationId: string) => ({

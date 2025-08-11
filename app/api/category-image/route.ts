@@ -32,8 +32,32 @@ async function findFirstWebpInFolder(folderPath: string): Promise<string | null>
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
+  const main = searchParams.get('main');
   const parent = searchParams.get('parent');
   const name = searchParams.get('name');
+
+  const baseDir = path.join(process.cwd(), 'partCategories');
+
+  // If a main category image is requested, return first .webp in that folder
+  if (main && !name) {
+    const normalizedMain = main === 'Carrosserie' ? 'Carosserie' : main;
+    const safeMain = sanitizePathSegment(normalizedMain);
+    const mainFolder = path.join(baseDir, safeMain);
+    const mainImage = await findFirstWebpInFolder(mainFolder);
+    if (mainImage) {
+      const data = await tryRead(mainImage);
+      if (data) {
+        return new NextResponse(data, {
+          status: 200,
+          headers: {
+            'Content-Type': 'image/webp',
+            'Cache-Control': 'public, max-age=31536000, immutable',
+          },
+        });
+      }
+    }
+    return new NextResponse('Not found', { status: 404 });
+  }
 
   if (!parent || !name) {
     return new NextResponse('Missing parent or name', { status: 400 });
@@ -43,8 +67,6 @@ export async function GET(request: NextRequest) {
   const normalizedParent = parent === 'Carrosserie' ? 'Carosserie' : parent;
   const safeParent = sanitizePathSegment(normalizedParent);
   const safeName = sanitizePathSegment(name);
-
-  const baseDir = path.join(process.cwd(), 'partCategories');
 
   // Try exact parent/name folder
   const folderA = path.join(baseDir, safeParent, safeName);
