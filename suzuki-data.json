@@ -1,0 +1,186 @@
+{
+  "brand": "Suzuki",
+  "models": [
+    {
+      "name": "SUZUKI ALTO (EC)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI ALTO (EF)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI ALTO (FF)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI ALTO (HA12, HA23)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI BALENO (EG)",
+      "motorisations": [
+        "SUZUKI BALENO (EG)1.9 TD (SY419)"
+      ]
+    },
+    {
+      "name": "SUZUKI BALENO (FW, EW)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI BALENO 3/5 portes (EG)",
+      "motorisations": [
+        "SUZUKI BALENO 3/5 portes (EG)1.9 TD (SY419)"
+      ]
+    },
+    {
+      "name": "SUZUKI BALENO Break (EG)",
+      "motorisations": [
+        "SUZUKI BALENO Break (EG)1.9 TD (SY419)"
+      ]
+    },
+    {
+      "name": "SUZUKI CAPPUCINO (EE)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI CARRY Camionnette (FD)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI CELERIO (LF)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI GRAND VITARA I (FT, HT)",
+      "motorisations": [
+        "SUZUKI GRAND VITARA I (FT, HT)2.0 HDI 110 16V 4x4 (SQ 420D)",
+        "SUZUKI GRAND VITARA I (FT, HT)2.0 HDI 110 4x4 (SQ 420D)",
+        "SUZUKI GRAND VITARA I (FT, HT)2.0 TD 4x4 (SQ 420D)"
+      ]
+    },
+    {
+      "name": "SUZUKI GRAND VITARA I Décapotable (GT)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI GRAND VITARA II (JT, TE, TD)",
+      "motorisations": [
+        "GRAND VITARA II (JT, TE, TD)",
+        "SUZUKI GRAND VITARA II (JT, TE, TD)1.6 Traction intégrale (JB416)",
+        "SUZUKI GRAND VITARA II (JT, TE, TD)1.9 DDiS Traction intégrale (JT419, TD44, JB419WD,...",
+        "SUZUKI GRAND VITARA II (JT, TE, TD)2.0 Traction intégrale (TD54, JB420)",
+        "SUZUKI GRAND VITARA II (JT, TE, TD)2.4 Traction intégrale (JB424)",
+        "SUZUKI GRAND VITARA II (JT, TE, TD)2.4 Traction intégrale (JT424, JB424)",
+        "SUZUKI GRAND VITARA II (JT, TE, TD)3.2 Traction intégrale (TDB4, JT632, JB632)"
+      ]
+    },
+    {
+      "name": "SUZUKI IGNIS I (FH)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI IGNIS II (MH)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI IGNIS III (MF)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI JIMNY Véhicule tout terrain fermé (SN)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI KIZASHI (FR)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI LIANA (ER, RH_)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI LIANA 3/5 portes",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SAMURAI Véhicule tout terrain fermé (SJ)",
+      "motorisations": [
+        "SUZUKI SAMURAI Véhicule tout terrain fermé (SJ)1.9 TD Traction intégrale (SJ 419TD)"
+      ]
+    },
+    {
+      "name": "SUZUKI SPLASH (EX)",
+      "motorisations": [
+        "SUZUKI SPLASH (EX)1.3 CDTI (A5B 413D)"
+      ]
+    },
+    {
+      "name": "SUZUKI SUPER CARRY Autobus/Autocar (ED)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SWIFT Décapotable (SF413)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SWIFT II 3/5 portes (EA, MA)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SWIFT II Sedan (AH, AJ)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SWIFT III (MZ, EZ)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SWIFT IV (FZ, NZ)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SWIFT V (AZ)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SX4 (EY, GY)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SX4 S-Cross (JY)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI SX4 Sedan (GY)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI VITARA (ET, TA)",
+      "motorisations": [
+        "SUZUKI VITARA (ET, TA)2.0 TD Intercooler Traction intégrale (SV 420D)",
+        "SUZUKI VITARA (ET, TA)2.0 TD Traction intégrale (SV 420D)"
+      ]
+    },
+    {
+      "name": "SUZUKI VITARA (LY)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI VITARA Cabrio (ET, TA)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI WAGON R+ 3/5 portes (EM)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI WAGON R+ 3/5 portes (MM)",
+      "motorisations": []
+    },
+    {
+      "name": "SUZUKI X-90 (EL)",
+      "motorisations": []
+    }
+  ]
+}

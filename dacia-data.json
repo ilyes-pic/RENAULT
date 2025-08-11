@@ -1,0 +1,50 @@
+{
+  "brand": "Dacia",
+  "models": [
+    {
+      "name": "DACIA DOKKER",
+      "motorisations": [
+        "DACIA DOKKER1.2 TCe",
+        "DACIA DOKKER1.5 dCi"
+      ]
+    },
+    {
+      "name": "DACIA DUSTER",
+      "motorisations": [
+        "DACIA DUSTER1.2 TCe 125",
+        "DACIA DUSTER1.2 TCe 125 4x4",
+        "DACIA DUSTER1.5 dCi",
+        "DACIA DUSTER1.5 dCi 4x4"
+      ]
+    },
+    {
+      "name": "DACIA LOGAN (LS_)",
+      "motorisations": [
+        "DACIA LOGAN (LS_)1.5 dCi (LS04)",
+        "DACIA LOGAN (LS_)1.5 dCi (LS0J, LS0Y)",
+        "DACIA LOGAN (LS_)1.5 dCi (LS0K)",
+        "DACIA LOGAN (LS_)1.5 dCi (LS0W)",
+        "DACIA LOGAN (LS_)1.6 MPI 85"
+      ]
+    },
+    {
+      "name": "DACIA LOGAN II",
+      "motorisations": [
+        "DACIA LOGAN II1.5 dCi"
+      ]
+    },
+    {
+      "name": "DACIA SANDERO",
+      "motorisations": [
+        "DACIA SANDERO1.5 dCi",
+        "DACIA SANDERO1.6 MPI 85"
+      ]
+    },
+    {
+      "name": "DACIA SANDERO II",
+      "motorisations": [
+        "DACIA SANDERO II1.5 dCi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "brand": "Renault",
+  "models": [
+    {
+      "name": "RENAULT CAPTUR (J5_, H5_)",
+      "motorisations": [
+        "RENAULT CAPTUR (J5_, H5_)0.9 TCe 90",
+        "RENAULT CAPTUR (J5_, H5_)1.2 TCe 120",
+        "RENAULT CAPTUR (J5_, H5_)1.5 dCi 110",
+        "RENAULT CAPTUR (J5_, H5_)1.5 dCi 90"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO CLASSIQUE (LB_)",
+      "motorisations": [
+        "RENAULT CLIO CLASSIQUE (LB_)1.5 dCi"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO I (B/C57_, 5/357_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT CLIO II (BB_, CB_)",
+      "motorisations": [
+        "RENAULT CLIO II (BB_, CB_)1.5 dCi",
+        "RENAULT CLIO II (BB_, CB_)1.5 dCi (B/CB07)",
+        "RENAULT CLIO II (BB_, CB_)1.5 dCi (B/CB08)",
+        "RENAULT CLIO II (BB_, CB_)1.5 dCi (B/CB3M)",
+        "RENAULT CLIO II (BB_, CB_)1.5 dCi (BB3N, CB3N)"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO II Camionnette (SB0/1/2_)",
+      "motorisations": [
+        "RENAULT CLIO II Camionnette (SB0/1/2_)1.5 dCi (SB07)"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO III (BR0/1, CR0/1)",
+      "motorisations": [
+        "RENAULT CLIO III (BR0/1, CR0/1)1.5 dCi",
+        "RENAULT CLIO III (BR0/1, CR0/1)1.5 dCi (BR0H, CR0H, CR1S, BR1S)",
+        "RENAULT CLIO III (BR0/1, CR0/1)1.5 dCi (BR17, CR17)",
+        "RENAULT CLIO III (BR0/1, CR0/1)1.5 dCi (BR1C, CR1C)",
+        "RENAULT CLIO III (BR0/1, CR0/1)1.5 dCi (C/BR0G, C/BR1G)"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO III Grandtour (KR0/1_)",
+      "motorisations": [
+        "RENAULT CLIO III Grandtour (KR0/1_)1.5 dCi",
+        "RENAULT CLIO III Grandtour (KR0/1_)1.5 dCi (KR0F)",
+        "RENAULT CLIO III Grandtour (KR0/1_)1.5 dCi (KR0G)",
+        "RENAULT CLIO III Grandtour (KR0/1_)1.5 dCi (KR0H, KR1S)",
+        "RENAULT CLIO III Grandtour (KR0/1_)1.5 dCi (KR1C, KR1N)"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO IV (BH_)",
+      "motorisations": [
+        "RENAULT CLIO IV (BH_)0.9 TCe 90",
+        "RENAULT CLIO IV (BH_)1.2 TCe 120",
+        "RENAULT CLIO IV (BH_)1.5 dCi 110",
+        "RENAULT CLIO IV (BH_)1.5 dCi 75",
+        "RENAULT CLIO IV (BH_)1.5 dCi 90"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO IV Grandtour (KH_)",
+      "motorisations": [
+        "RENAULT CLIO IV Grandtour (KH_)0.9 TCe 90",
+        "RENAULT CLIO IV Grandtour (KH_)1.2 TCe 120",
+        "RENAULT CLIO IV Grandtour (KH_)1.5 dCi 110",
+        "RENAULT CLIO IV Grandtour (KH_)1.5 dCi 75",
+        "RENAULT CLIO IV Grandtour (KH_)1.5 dCi 90"
+      ]
+    },
+    {
+      "name": "RENAULT CLIO V (B7_)",
+      "motorisations": [
+        "RENAULT CLIO V (B7_)1.0 TCe 100 (B7MT)"
+      ]
+    },
+    {
+      "name": "RENAULT ESPACE II (J/S63_)",
+      "motorisations": [
+        "RENAULT ESPACE II (J/S63_)2.1 TD (J633, J634, J/S635, J/S63D)",
+        "RENAULT ESPACE II (J/S63_)2.1 TD (J63E)"
+      ]
+    },
+    {
+      "name": "RENAULT ESPACE III (JE0_)",
+      "motorisations": [
+        "RENAULT ESPACE III (JE0_)2.2 12V TD (JE0E, JE0H, JE0P)",
+        "RENAULT ESPACE III (JE0_)2.2 dCi (JE0K)",
+        "RENAULT ESPACE III (JE0_)2.2 dCi (JE0S)"
+      ]
+    },
+    {
+      "name": "RENAULT ESPACE IV (JK0/1_)",
+      "motorisations": [
+        "RENAULT ESPACE IV (JK0/1_)1.9 dCi (JK0U)",
+        "RENAULT ESPACE IV (JK0/1_)1.9 dCi (JK0U, JK0G)",
+        "RENAULT ESPACE IV (JK0/1_)2.0 dCi (JK01, JK02, JK1J, JK1K)",
+        "RENAULT ESPACE IV (JK0/1_)2.0 dCi (JK02, JK03)",
+        "RENAULT ESPACE IV (JK0/1_)2.0 dCi (JK03, JK04)",
+        "RENAULT ESPACE IV (JK0/1_)2.2 dCi (JK07)",
+        "RENAULT ESPACE IV (JK0/1_)2.2 dCi (JK0H)",
+        "RENAULT ESPACE IV (JK0/1_)3.0 dCi",
+        "RENAULT ESPACE IV (JK0/1_)3.0 dCi (JK0E, JK0Y)",
+        "RENAULT ESPACE IV (JK0/1_)3.0 dCi (JK0J, JK0V)"
+      ]
+    },
+    {
+      "name": "RENAULT FLUENCE (L3_)",
+      "motorisations": [
+        "RENAULT FLUENCE (L3_)1.5 dCi (L30A)",
+        "RENAULT FLUENCE (L3_)1.5 dCi (L30B)",
+        "RENAULT FLUENCE (L3_)1.5 dCi (L30D, L30L, L306, L33F, L33L, L33M, L33V, L33W)",
+        "RENAULT FLUENCE (L3_)1.5 dCi (L30S)"
+      ]
+    },
+    {
+      "name": "RENAULT GRAND SCÉNIC II (JM0/1_)",
+      "motorisations": [
+        "RENAULT GRAND SCÉNIC II (JM0/1_)1.5 dCi",
+        "RENAULT GRAND SCÉNIC II (JM0/1_)1.5 dCi (JM02, JM13)",
+        "RENAULT GRAND SCÉNIC II (JM0/1_)1.9 dCi",
+        "RENAULT GRAND SCÉNIC II (JM0/1_)1.9 dCi (JM0G, JM12, JM1G, JM2C)",
+        "RENAULT GRAND SCÉNIC II (JM0/1_)1.9 dCi (JM14)",
+        "RENAULT GRAND SCÉNIC II (JM0/1_)1.9 dCi (JM15)",
+        "RENAULT GRAND SCÉNIC II (JM0/1_)2.0 dCi (JM1K)"
+      ]
+    },
+    {
+      "name": "RENAULT GRAND SCÉNIC III (JZ0/1_)",
+      "motorisations": [
+        "RENAULT GRAND SCÉNIC III (JZ0/1_)1.2 TCe",
+        "RENAULT GRAND SCÉNIC III (JZ0/1_)1.2 TCe (JZ16)",
+        "RENAULT GRAND SCÉNIC III (JZ0/1_)1.5 dCi",
+        "RENAULT GRAND SCÉNIC III (JZ0/1_)1.6 dCi (JZ00, JZ12)",
+        "RENAULT GRAND SCÉNIC III (JZ0/1_)1.9 dCi",
+        "RENAULT GRAND SCÉNIC III (JZ0/1_)2.0 dCi (JZ0L)"
+      ]
+    },
+    {
+      "name": "RENAULT KADJAR (HA_, HL_)",
+      "motorisations": [
+        "RENAULT KADJAR (HA_, HL_)1.2 TCe 130",
+        "RENAULT KADJAR (HA_, HL_)1.5 dCi 110",
+        "RENAULT KADJAR (HA_, HL_)1.6 dCi 130",
+        "RENAULT KADJAR (HA_, HL_)1.6 dCi 130 4x4"
+      ]
+    },
+    {
+      "name": "RENAULT KANGOO (KC0/1_)",
+      "motorisations": [
+        "RENAULT KANGOO (KC0/1_)1.5 dCi",
+        "RENAULT KANGOO (KC0/1_)1.5 dCi (KC07)",
+        "RENAULT KANGOO (KC0/1_)1.5 dCi (KC08, KC09)",
+        "RENAULT KANGOO (KC0/1_)1.9 dCi 4x4",
+        "RENAULT KANGOO (KC0/1_)1.9 dCi 4x4 (KC0V)"
+      ]
+    },
+    {
+      "name": "RENAULT KANGOO / GRAND KANGOO (KW0/1_)",
+      "motorisations": [
+        "RENAULT KANGOO / GRAND KANGOO (KW0/1_)1.2 TCe 115",
+        "RENAULT KANGOO / GRAND KANGOO (KW0/1_)1.5 dCi",
+        "RENAULT KANGOO / GRAND KANGOO (KW0/1_)1.5 dCi (KW0A)",
+        "RENAULT KANGOO / GRAND KANGOO (KW0/1_)1.5 dCi (KW0B)",
+        "RENAULT KANGOO / GRAND KANGOO (KW0/1_)1.5 dCi (KW0F)",
+        "RENAULT KANGOO / GRAND KANGOO (KW0/1_)1.5 dCi 110"
+      ]
+    },
+    {
+      "name": "RENAULT KANGOO Express (FC0/1_)",
+      "motorisations": [
+        "RENAULT KANGOO Express (FC0/1_)1.5 dCi",
+        "RENAULT KANGOO Express (FC0/1_)1.5 dCi (FC07, FC1R)",
+        "RENAULT KANGOO Express (FC0/1_)1.5 dCi (FC08, FC09)",
+        "RENAULT KANGOO Express (FC0/1_)1.5 dCi (FC1E)",
+        "RENAULT KANGOO Express (FC0/1_)1.5 dCi (FC1G)",
+        "RENAULT KANGOO Express (FC0/1_)1.5 dCi (FC1R)",
+        "RENAULT KANGOO Express (FC0/1_)1.9 dCi (FC0V)",
+        "RENAULT KANGOO Express (FC0/1_)1.9 dCi 4x4 (FC0V)"
+      ]
+    },
+    {
+      "name": "RENAULT KANGOO Express (FW0/1_)",
+      "motorisations": [
+        "RENAULT KANGOO Express (FW0/1_)1.2 TCe 115",
+        "RENAULT KANGOO Express (FW0/1_)1.5 dCi",
+        "RENAULT KANGOO Express (FW0/1_)1.5 dCi (FW0F)",
+        "RENAULT KANGOO Express (FW0/1_)1.5 dCi 110",
+        "RENAULT KANGOO Express (FW0/1_)1.5 dCi 75",
+        "RENAULT KANGOO Express (FW0/1_)1.5 dCi 85 (FW0A, FW0B)",
+        "RENAULT KANGOO Express (FW0/1_)1.5 dCi 90 (FW0G)"
+      ]
+    },
+    {
+      "name": "RENAULT KOLEOS I (HY_)",
+      "motorisations": [
+        "RENAULT KOLEOS I (HY_)2.0 dCi (HY0K)",
+        "RENAULT KOLEOS I (HY_)2.0 dCi 4x4 (HY0B)",
+        "RENAULT KOLEOS I (HY_)2.0 dCi 4x4 (HY0K)"
+      ]
+    },
+    {
+      "name": "RENAULT LAGUNA I (B56_, 556_)",
+      "motorisations": [
+        "RENAULT LAGUNA I (B56_, 556_)1.9 dCi (B56W)"
+      ]
+    },
+    {
+      "name": "RENAULT LAGUNA I Grandtour (K56_)",
+      "motorisations": [
+        "RENAULT LAGUNA I Grandtour (K56_)1.9 dCi (K56W)"
+      ]
+    },
+    {
+      "name": "RENAULT LAGUNA II (BG0/1_)",
+      "motorisations": [
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCi",
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCi (BG05)",
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCi (BG08, BG0G)",
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCI (BG0E)",
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCi (BG0R)",
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCi (BG12)",
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCi (BG1A, BG1V)",
+        "RENAULT LAGUNA II (BG0/1_)1.9 dCi (BG1A, BG1W)",
+        "RENAULT LAGUNA II (BG0/1_)2.0 dCi (BG14, BG1S)",
+        "RENAULT LAGUNA II (BG0/1_)2.0 dCi (BG1T)",
+        "RENAULT LAGUNA II (BG0/1_)2.2 dCi",
+        "RENAULT LAGUNA II (BG0/1_)2.2 dCi (BG0F)"
+      ]
+    },
+    {
+      "name": "RENAULT LAGUNA II Grandtour (KG0/1_)",
+      "motorisations": [
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCi",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCi (KG05)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCI (KG0E)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCi (KG0E, KG0R)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCi (KG0G)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCi (KG12)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCi (KG1A, KG1W)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)1.9 dCi (KG1V)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)2.0 dCi (KG1S)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)2.0 dCi (KG1T)",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)2.2 dCi",
+        "RENAULT LAGUNA II Grandtour (KG0/1_)2.2 dCi (KG0F)"
+      ]
+    },
+    {
+      "name": "RENAULT LAGUNA III (BT0/1)",
+      "motorisations": [
+        "RENAULT LAGUNA III (BT0/1)1.5 dCi (BT00, BT0A, BT0T, BT1J)",
+        "RENAULT LAGUNA III (BT0/1)2.0 dCi (BT01, BT08, BT09, BT0E, BT0K, BT12, BT1C, BT1D,...",
+        "RENAULT LAGUNA III (BT0/1)2.0 dCi (BT07, BT0J, BT14, BT1A, BT1S)",
+        "RENAULT LAGUNA III (BT0/1)2.0 dCi (BT0M, BT0N, BT0S, BT19, BT1F)",
+        "RENAULT LAGUNA III (BT0/1)2.0 dCi GT (BT11, BT1E, BT1N)",
+        "RENAULT LAGUNA III (BT0/1)3.0 dCi (BT03, BT13)"
+      ]
+    },
+    {
+      "name": "RENAULT LAGUNA III Grandtour (KT0/1)",
+      "motorisations": [
+        "RENAULT LAGUNA III Grandtour (KT0/1)1.5 dCi (KT0A)",
+        "RENAULT LAGUNA III Grandtour (KT0/1)2.0 dCi (KT01, KT08, KT09, KT0K, KT12, KT1D, KT1W)",
+        "RENAULT LAGUNA III Grandtour (KT0/1)2.0 dCi (KT07, KT0J, KT14, KT1A, KT1S)",
+        "RENAULT LAGUNA III Grandtour (KT0/1)2.0 dCi (KT0M, KT0N, KT0S, KT19, KT1F)",
+        "RENAULT LAGUNA III Grandtour (KT0/1)2.0 dCi GT (KT11, KT1E, KT1N)",
+        "RENAULT LAGUNA III Grandtour (KT0/1)3.0 dCi (KT03, KT13)"
+      ]
+    },
+    {
+      "name": "RENAULT LATITUDE (L70_)",
+      "motorisations": [
+        "RENAULT LATITUDE (L70_)1.5 dCi (L70R)",
+        "RENAULT LATITUDE (L70_)2.0 dCi 150 (L70H)",
+        "RENAULT LATITUDE (L70_)2.0 dCi 175 (L70Y)",
+        "RENAULT LATITUDE (L70_)3.0 dCi 240 (L70G)"
+      ]
+    },
+    {
+      "name": "RENAULT MASTER II Autobus/Autocar (JD)",
+      "motorisations": [
+        "RENAULT MASTER II Autobus/Autocar (JD)1.9 dCi 80",
+        "RENAULT MASTER II Autobus/Autocar (JD)2.2 dCI 90",
+        "RENAULT MASTER II Autobus/Autocar (JD)2.5 dCi",
+        "RENAULT MASTER II Autobus/Autocar (JD)2.5 dCi 100 (JDCV)",
+        "RENAULT MASTER II Autobus/Autocar (JD)2.5 dCi 120",
+        "RENAULT MASTER II Autobus/Autocar (JD)3.0 dCi 140 (JD0T)"
+      ]
+    },
+    {
+      "name": "RENAULT MASTER II Camion plate-forme/Châssis (ED/HD/UD)",
+      "motorisations": [
+        "RENAULT MASTER II Camion plate-forme/Châssis (ED/HD/UD)2.2 dCI 90",
+        "RENAULT MASTER II Camion plate-forme/Châssis (ED/HD/UD)2.5 dCi",
+        "RENAULT MASTER II Camion plate-forme/Châssis (ED/HD/UD)2.5 dCi 100 (ED4V, ED8V)",
+        "RENAULT MASTER II Camion plate-forme/Châssis (ED/HD/UD)2.5 dCi 120",
+        "RENAULT MASTER II Camion plate-forme/Châssis (ED/HD/UD)3.0 dCi 140 (ED0S, UD0S)"
+      ]
+    },
+    {
+      "name": "RENAULT MASTER II Camionnette (FD)",
+      "motorisations": [
+        "RENAULT MASTER II Camionnette (FD)1.9 dCi 80",
+        "RENAULT MASTER II Camionnette (FD)2.2 dCI 90",
+        "RENAULT MASTER II Camionnette (FD)2.5 dCi",
+        "RENAULT MASTER II Camionnette (FD)2.5 dCi 100 (FD0U, FD0V)",
+        "RENAULT MASTER II Camionnette (FD)2.5 dCi 120",
+        "RENAULT MASTER II Camionnette (FD)3.0 dCi 140 (HD0S, FD0S, HD1S)"
+      ]
+    },
+    {
+      "name": "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)",
+      "motorisations": [
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 100 FWD (EV0A, EV0B, HV0A, HV0B, HV0G, UV0A,...",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 100 RWD (UV0C, UV0D, HV0C, HV0D)",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 110 FWD",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 125 FWD (EV0C, EV0D, EV0J, HV0C, HV0D, HV0H,...",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 125 RWD (HV0C, HV0D, UV0C, UV0D, UV0H, UV0J)",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 135 FWD",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 135 RWD",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 145 FWD (EV0E, EV0F, HV0E, HV0F, UV0E, UV0F)",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 145 RWD (UV0F, UV0E)",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 150 FWD",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 150 RWD",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 165 FWD",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 165 RWD",
+        "RENAULT MASTER III Camion plate-forme/Châssis (EV, HV, UV)2.3 dCi 170 FWD"
+      ]
+    },
+    {
+      "name": "RENAULT MASTER III Camionnette (FV)",
+      "motorisations": [
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 100 FWD (FV0A, FV0B, FV0G, FV0K)",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 100 RWD (FV0B, FV0C, FV0D)",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 110 FWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 125 FWD (FV0C, FV0D)",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 125 RWD (FV0C, FV0D, FV0H, FV0J)",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 130 FWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 135 FWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 135 RWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 145 FWD (FV0E, FV0F, FV0H, FV0J)",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 145 RWD (FV0E, FV0F, FV0J)",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 150 FWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 150 RWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 165 FWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 165 RWD",
+        "RENAULT MASTER III Camionnette (FV)2.3 dCi 170 FWD"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE I (BA0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE I (BA0/1_)1.9 dCi (BA05, BA1F)",
+        "RENAULT MEGANE I (BA0/1_)1.9 TDI"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE I Classic (LA0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE I Classic (LA0/1_)1.9 dCi (LA05, LA1F)",
+        "RENAULT MEGANE I Classic (LA0/1_)1.9 TDI"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE I Coach (DA0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE I Coach (DA0/1_)1.9 dCi (DA05, DA1F)"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE I Grandtour (KA0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE I Grandtour (KA0/1_)1.9 dCi (KA05, KA1F)"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE II (BM0/1_, CM0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)1.5 dCi (BM02, BM13, BM2A, CM02, CM13)",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)1.5 dCi (BM0F, BM0T, BM2B, CM0F, CM0T)",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)1.5 dCi (BM16, CM16)",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)1.5 dCi (BM1E, CM1E)",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)1.5 dCi (BM1F, CM1F)",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)1.9 dCi",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)1.9 dCi (BM0G, CM0G)",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)2.0 dCi",
+        "RENAULT MEGANE II (BM0/1_, CM0/1_)2.0 dCi (BM1K, CM1K)"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE II Break (KM0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE II Break (KM0/1_)1.5 dCi (KM02, KM13)",
+        "RENAULT MEGANE II Break (KM0/1_)1.5 dCi (KM0F, KM0T, KM2B)",
+        "RENAULT MEGANE II Break (KM0/1_)1.5 dCi (KM16)",
+        "RENAULT MEGANE II Break (KM0/1_)1.5 dCi (KM16, KM1E)",
+        "RENAULT MEGANE II Break (KM0/1_)1.5 dCi (KM1F)",
+        "RENAULT MEGANE II Break (KM0/1_)1.9 dCi",
+        "RENAULT MEGANE II Break (KM0/1_)2.0 dCi"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE II Coupé-Cabriolet (EM0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE II Coupé-Cabriolet (EM0/1_)1.5 dCi (EM16)",
+        "RENAULT MEGANE II Coupé-Cabriolet (EM0/1_)1.5 dCi (EM1E)",
+        "RENAULT MEGANE II Coupé-Cabriolet (EM0/1_)1.9 dCi",
+        "RENAULT MEGANE II Coupé-Cabriolet (EM0/1_)2.0 dCi"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE II Sedan (LM0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE II Sedan (LM0/1_)1.5 dCi (LM02, LM13, LM2A)",
+        "RENAULT MEGANE II Sedan (LM0/1_)1.5 dCi (LM0F, LM0T, LM2B)",
+        "RENAULT MEGANE II Sedan (LM0/1_)1.5 dCi (LM16)",
+        "RENAULT MEGANE II Sedan (LM0/1_)1.5 dCi (LM1E)",
+        "RENAULT MEGANE II Sedan (LM0/1_)1.5 dCi (LM1F)",
+        "RENAULT MEGANE II Sedan (LM0/1_)1.9 dCi",
+        "RENAULT MEGANE II Sedan (LM0/1_)1.9 dCi (LM0G, LM1G, LM2C)",
+        "RENAULT MEGANE II Sedan (LM0/1_)1.9 dCi (LM14, LM1D)"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE III 3/5 portes (BZ0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.2 TCe",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.2 TCe (BZ16)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.4 TCe (BZ0F, BZ1V)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.5 dCi",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.5 dCi (BZ09, BZ0D)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.5 dCi (BZ0C)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.5 dCi (BZ1G, BZ1W, BZ0R)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.6 dCi (BZ00, BZ12)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)1.9 dCi (BZ0N, BZ0J)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)2.0 dCi",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)2.0 dCi (BZ0L)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)2.0 dCi (BZ0Y)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)2.0 TCe",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)2.0 TCe (BZ0K)",
+        "RENAULT MEGANE III 3/5 portes (BZ0/1_)2.0 TCe 220"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE III Coupé (DZ0/1_)",
+      "motorisations": [
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.2 TCe",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.2 TCe (DZ16)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.4 TCe (DZ0F, DZ1V)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.5 dCi",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.5 dCi (DZ09, DZ0D, DZ1F, DZ1G)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.5 dCi (DZ0A)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.5 dCi (DZ0B)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.5 dCi (DZ0C, DZ1A)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.6 dCi (DZ00)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)1.9 dCi (DZ0N, DZ0J, DZ1J, DZ1K)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)2.0 dCi",
+        "RENAULT MEGANE III Coupé (DZ0/1_)2.0 dCi (DZ0L)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)2.0 dCi (DZ0Y)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)2.0 TCe",
+        "RENAULT MEGANE III Coupé (DZ0/1_)2.0 TCe (DZ0K)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)2.0 TCe (DZ1N)",
+        "RENAULT MEGANE III Coupé (DZ0/1_)2.0 TCe 220"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE III Grandtour (KZ0/1)",
+      "motorisations": [
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.2 TCe",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.2 TCe (KZ16)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.4 TCe (KZ0F, KZ1V)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.5 dCi",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.5 dCi (KZ09, KZ0D, KZ1G)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.5 dCi (KZ0C, KZ1A)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.5 dCi (KZ1M, KZ1W)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.6 dCi (KZ00, KZ12)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)1.9 dCi (KZ0J, KZ0N, KZ1S)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)2.0 dCi",
+        "RENAULT MEGANE III Grandtour (KZ0/1)2.0 dCi (KZ0L)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)2.0 dCi (KZ0Y)",
+        "RENAULT MEGANE III Grandtour (KZ0/1)2.0 TCe",
+        "RENAULT MEGANE III Grandtour (KZ0/1)2.0 TCe (KZ0K, KZ1T)"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE IV (B9A/M_)",
+      "motorisations": [
+        "RENAULT MEGANE IV (B9A/M_)1.2 TCe 100 (B9MS)",
+        "RENAULT MEGANE IV (B9A/M_)1.2 TCe 130 (B9MR)",
+        "RENAULT MEGANE IV (B9A/M_)1.5 dCi 110 (B9A3)",
+        "RENAULT MEGANE IV (B9A/M_)1.5 dCi 90 (B9A1)",
+        "RENAULT MEGANE IV (B9A/M_)1.6 dCi 130 (B9A4)",
+        "RENAULT MEGANE IV (B9A/M_)1.6 dCi 165",
+        "RENAULT MEGANE IV (B9A/M_)1.6 TCe 205 (B9MV)"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE IV Grandtour (K9A/M_)",
+      "motorisations": [
+        "RENAULT MEGANE IV Grandtour (K9A/M_)1.2 TCe 100",
+        "RENAULT MEGANE IV Grandtour (K9A/M_)1.2 TCe 130",
+        "RENAULT MEGANE IV Grandtour (K9A/M_)1.5 dCi 110",
+        "RENAULT MEGANE IV Grandtour (K9A/M_)1.5 dCi 90",
+        "RENAULT MEGANE IV Grandtour (K9A/M_)1.6 dCi 130",
+        "RENAULT MEGANE IV Grandtour (K9A/M_)1.6 dCi 165",
+        "RENAULT MEGANE IV Grandtour (K9A/M_)1.6 TCe 205"
+      ]
+    },
+    {
+      "name": "RENAULT MEGANE Scenic (JA0/1_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT MODUS / GRAND MODUS (F/JP0_)",
+      "motorisations": [
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi (FP0D, JP0D)",
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi (FP0E, JP0E)",
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi (FP0F, JP0F)",
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi (FP0G, JP0G)",
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi (JP02)",
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi (JP0G, JP0H)",
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi 75",
+        "RENAULT MODUS / GRAND MODUS (F/JP0_)1.5 dCi 90"
+      ]
+    },
+    {
+      "name": "RENAULT R19 I (B/C53_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT R19 I Chamade (L53_)",
+      "motorisations": [
+        "RENAULT R19 I Chamade (L53_)1.9 TD (L53K)"
+      ]
+    },
+    {
+      "name": "RENAULT R19 II (B/C53_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT R19 II Chamade (L53_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT R21 (B48_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT R21 Break (K48_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT R21 Sedan (L48_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT RAPID Camionnette (F40_, G40_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT SAFRANE I (B54_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT SAFRANE II (B54_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT SCÉNIC I Monospace (JA0/1_, FA0_)",
+      "motorisations": [
+        "RENAULT SCÉNIC I Monospace (JA0/1_, FA0_)1.9 dCi (JA05, JA1F)",
+        "RENAULT SCÉNIC I Monospace (JA0/1_, FA0_)1.9 dCi RX4"
+      ]
+    },
+    {
+      "name": "RENAULT SCÉNIC II (JM0/1_)",
+      "motorisations": [
+        "RENAULT SCÉNIC II (JM0/1_)1.5 dCi (JM02, JM13)",
+        "RENAULT SCÉNIC II (JM0/1_)1.5 dCi (JM0F)",
+        "RENAULT SCÉNIC II (JM0/1_)1.5 dCi (JM16)",
+        "RENAULT SCÉNIC II (JM0/1_)1.5 dCi (JM1E)",
+        "RENAULT SCÉNIC II (JM0/1_)1.5 dCi (JM1F)",
+        "RENAULT SCÉNIC II (JM0/1_)1.9 dCi (JM0G, JM12, JM1G, JM2C)",
+        "RENAULT SCÉNIC II (JM0/1_)1.9 dCi (JM14)",
+        "RENAULT SCÉNIC II (JM0/1_)1.9 dCi (JM15)",
+        "RENAULT SCÉNIC II (JM0/1_)2.0 dCi (JM1K)"
+      ]
+    },
+    {
+      "name": "RENAULT SCÉNIC III (JZ0/1_)",
+      "motorisations": [
+        "RENAULT SCÉNIC III (JZ0/1_)1.2 TCe",
+        "RENAULT SCÉNIC III (JZ0/1_)1.2 TCe (JZ16)",
+        "RENAULT SCÉNIC III (JZ0/1_)1.5 dCi",
+        "RENAULT SCÉNIC III (JZ0/1_)1.5 dCi (JZ02, JZ0R)",
+        "RENAULT SCÉNIC III (JZ0/1_)1.6 dCi (JZ00, JZ12)",
+        "RENAULT SCÉNIC III (JZ0/1_)1.9 dCi (JZ0J, JZ1J, JZ1K, JZ1S)",
+        "RENAULT SCÉNIC III (JZ0/1_)2.0 dCi (JZ0L)",
+        "RENAULT SCÉNIC III (JZ0/1_)2.0 dCi (JZ0Y, JZ26)"
+      ]
+    },
+    {
+      "name": "RENAULT SUPER 5 (B/C40_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT SYMBOL I (LU1/2_)",
+      "motorisations": [
+        "RENAULT SYMBOL I (LU1/2_)0.9 TCe",
+        "RENAULT SYMBOL I (LU1/2_)1.5 dCi"
+      ]
+    },
+    {
+      "name": "RENAULT SYMBOL II (L8_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT TALISMAN Grandtour (KP_)",
+      "motorisations": [
+        "RENAULT TALISMAN Grandtour (KP_)1.5 dCi 110",
+        "RENAULT TALISMAN Grandtour (KP_)1.6 dCi 130",
+        "RENAULT TALISMAN Grandtour (KP_)1.6 dCi 160",
+        "RENAULT TALISMAN Grandtour (KP_)1.6 TCe 150",
+        "RENAULT TALISMAN Grandtour (KP_)1.6 TCe 200"
+      ]
+    },
+    {
+      "name": "RENAULT TRAFIC II Autobus/Autocar (JL)",
+      "motorisations": [
+        "RENAULT TRAFIC II Autobus/Autocar (JL)1.9 dCI 100 (JL0C)",
+        "RENAULT TRAFIC II Autobus/Autocar (JL)1.9 dCI 80 (JL0B)",
+        "RENAULT TRAFIC II Autobus/Autocar (JL)2.0 dCi 115 (JL0H)",
+        "RENAULT TRAFIC II Autobus/Autocar (JL)2.0 dCi 90 (JL0H)",
+        "RENAULT TRAFIC II Autobus/Autocar (JL)2.5 dCi 115",
+        "RENAULT TRAFIC II Autobus/Autocar (JL)2.5 dCi 135 (JL0D)",
+        "RENAULT TRAFIC II Autobus/Autocar (JL)2.5 dCi 145 (JL0J)"
+      ]
+    },
+    {
+      "name": "RENAULT TRAFIC II Camionnette (FL)",
+      "motorisations": [
+        "RENAULT TRAFIC II Camionnette (FL)1.9 dCi 100 (FL0C)",
+        "RENAULT TRAFIC II Camionnette (FL)1.9 dCi 80 (FL0B)",
+        "RENAULT TRAFIC II Camionnette (FL)2.0 dCi 115 (FL01, FL0U)",
+        "RENAULT TRAFIC II Camionnette (FL)2.0 dCi 90 (FL0H)",
+        "RENAULT TRAFIC II Camionnette (FL)2.5 dCi 135 (FL0D)",
+        "RENAULT TRAFIC II Camionnette (FL)2.5 dCi 145 (FL0J)"
+      ]
+    },
+    {
+      "name": "RENAULT TRAFIC III Autobus/Autocar (JG_)",
+      "motorisations": [
+        "RENAULT TRAFIC III Autobus/Autocar (JG_)1.6 dCi 115",
+        "RENAULT TRAFIC III Autobus/Autocar (JG_)1.6 dCi 120",
+        "RENAULT TRAFIC III Autobus/Autocar (JG_)1.6 dCi 125",
+        "RENAULT TRAFIC III Autobus/Autocar (JG_)1.6 dCi 140",
+        "RENAULT TRAFIC III Autobus/Autocar (JG_)1.6 dCi 145",
+        "RENAULT TRAFIC III Autobus/Autocar (JG_)1.6 dCi 90",
+        "RENAULT TRAFIC III Autobus/Autocar (JG_)1.6 dCi 95"
+      ]
+    },
+    {
+      "name": "RENAULT TRAFIC III Camionnette (FG_)",
+      "motorisations": [
+        "RENAULT TRAFIC III Camionnette (FG_)1.6 dCi 115",
+        "RENAULT TRAFIC III Camionnette (FG_)1.6 dCi 120",
+        "RENAULT TRAFIC III Camionnette (FG_)1.6 dCi 125",
+        "RENAULT TRAFIC III Camionnette (FG_)1.6 dCi 140",
+        "RENAULT TRAFIC III Camionnette (FG_)1.6 dCi 145",
+        "RENAULT TRAFIC III Camionnette (FG_)1.6 dCi 90",
+        "RENAULT TRAFIC III Camionnette (FG_)1.6 dCi 95"
+      ]
+    },
+    {
+      "name": "RENAULT TWINGO I (C06_)",
+      "motorisations": []
+    },
+    {
+      "name": "RENAULT TWINGO II (CN0_)",
+      "motorisations": [
+        "RENAULT TWINGO II (CN0_)1.2 TCe 100 (CN0P)",
+        "RENAULT TWINGO II (CN0_)1.5 dCi (CN0E)",
+        "RENAULT TWINGO II (CN0_)1.5 dCi (CN0U)",
+        "RENAULT TWINGO II (CN0_)1.5 dCi 75",
+        "RENAULT TWINGO II (CN0_)1.5 dCi 90"
+      ]
+    },
+    {
+      "name": "RENAULT TWINGO III (BCM_)",
+      "motorisations": [
+        "RENAULT TWINGO III (BCM_)0.9 TCe 110",
+        "RENAULT TWINGO III (BCM_)0.9 TCe 90"
+      ]
+    },
+    {
+      "name": "RENAULT VEL SATIS (BJ0_)",
+      "motorisations": [
+        "RENAULT VEL SATIS (BJ0_)2.0 dCi (BJ03)",
+        "RENAULT VEL SATIS (BJ0_)2.0 dCi (BJ03, BJ0B)",
+        "RENAULT VEL SATIS (BJ0_)2.2 dCi (BJ0E, BJ0F)",
+        "RENAULT VEL SATIS (BJ0_)2.2 dCi (BJ0E, BJ0F, BJ0G, BJ0H)",
+        "RENAULT VEL SATIS (BJ0_)2.2 dCi (BJ0H)",
+        "RENAULT VEL SATIS (BJ0_)2.2 dCi (BJ0M)",
+        "RENAULT VEL SATIS (BJ0_)3.0 dCi (BJ0S)"
+      ]
+    }
+  ]
+}
