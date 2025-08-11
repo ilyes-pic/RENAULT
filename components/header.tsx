@@ -17,11 +17,11 @@ export function Header() {
           <div className="flex items-center space-x-4">
             <span className="flex items-center space-x-1">
               <Phone className="h-3 w-3" />
-              <span>29 616 311 / 92 328 049</span>
+              <span className="whitespace-nowrap">29 616 311 / 92 328 049</span>
             </span>
-            <span className="flex items-center space-x-1">
+            <span className="hidden md:flex items-center space-x-1">
               <Mail className="h-3 w-3" />
-              <span>mohsen.zorraga@MZ-group.tn</span>
+              <span className="whitespace-nowrap">mohsen.zorraga@MZ-group.tn</span>
             </span>
           </div>
           <div className="hidden md:flex items-center space-x-2">
