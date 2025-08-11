@@ -13,19 +13,38 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       {/* Top bar with contact info */}
       <div className="border-b bg-muted/30">
-        <div className="section-container flex h-10 items-center justify-between text-sm text-muted-foreground">
-          <div className="flex items-center space-x-4">
-            <span className="flex items-center space-x-1">
-              <Phone className="h-3 w-3" />
-              <span className="whitespace-nowrap">29 616 311 / 92 328 049</span>
-            </span>
-            <span className="hidden md:flex items-center space-x-1">
-              <Mail className="h-3 w-3" />
-              <span className="whitespace-nowrap">mohsen.zorraga@MZ-group.tn</span>
-            </span>
+        <div className="section-container h-10 flex items-center text-sm text-muted-foreground">
+          {/* Mobile marquee */}
+          <div className="marquee w-full md:hidden">
+            <div className="marquee-content">
+              <span className="inline-flex items-center gap-2 mr-8">
+                <Phone className="h-3 w-3" />
+                <span>29 616 311 / 92 328 049</span>
+              </span>
+              <span className="inline-flex items-center gap-2 mr-8">
+                <Mail className="h-3 w-3" />
+                <span>mohsen.zorraga@MZ-group.tn</span>
+              </span>
+              <span className="inline-flex items-center gap-2">
+                ZORRAGA PIÈCES AUTO
+              </span>
+            </div>
           </div>
-          <div className="hidden md:flex items-center space-x-2">
-            <span>Sélecteur de véhicules intelligent</span>
+          {/* Desktop static */}
+          <div className="hidden md:flex w-full items-center justify-between">
+            <div className="flex items-center space-x-4">
+              <span className="flex items-center space-x-1">
+                <Phone className="h-3 w-3" />
+                <span className="whitespace-nowrap">29 616 311 / 92 328 049</span>
+              </span>
+              <span className="flex items-center space-x-1">
+                <Mail className="h-3 w-3" />
+                <span className="whitespace-nowrap">mohsen.zorraga@MZ-group.tn</span>
+              </span>
+            </div>
+            <div className="hidden md:flex items-center space-x-2">
+              <span>Sélecteur de véhicules intelligent</span>
+            </div>
           </div>
         </div>
       </div>

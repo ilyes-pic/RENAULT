@@ -205,6 +205,35 @@
   animation: bounceGentle 2s ease-in-out infinite;
 }
 
+/* Marquee for mobile top bar */
+.marquee {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-ltr 15s linear infinite;
+}
+
+@keyframes marquee-ltr {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-content {
+    animation: none;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
