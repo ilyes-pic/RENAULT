@@ -99,14 +99,16 @@ export function CarSelector({ onSelectionChange }: CarSelectorProps) {
     fetchBrands();
   }, []);
 
-  // Notify parent of selection changes
+  // Notify parent when selection changes
   useEffect(() => {
     onSelectionChange?.({
       brand: selectedBrand || undefined,
       model: selectedModel || undefined,
       motorisation: selectedMotorisation || undefined,
     });
-  }, [selectedBrand, selectedModel, selectedMotorisation, onSelectionChange]);
+    // Intentionally omit onSelectionChange from deps to avoid effect loop due to changing callback identity
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedBrand, selectedModel, selectedMotorisation]);
 
   // Filter brands based on search term
   const filteredBrands = useMemo(() => {
@@ -370,7 +372,7 @@ export function CarSelector({ onSelectionChange }: CarSelectorProps) {
           animationDirection === 'forward' ? "animate-slide-in" : "animate-fade-in"
         )}>
           {filteredBrands.map((brand, index) => {
-            const logoSrc = brand.photo || brand.logo || '/brands/default.png';
+            const logoSrc = brand.photo || brand.logo || '/logoLightMode.png';
             return (
               <Card
                 key={brand.id}

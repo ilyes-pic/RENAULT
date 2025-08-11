@@ -140,6 +140,13 @@ export default function NewPartPage() {
     }
   };
 
+  // Helper to build API image URL that finds the first webp in the folder
+  const getCategoryImageApiUrl = (parentName?: string, categoryName?: string): string => {
+    if (!parentName || !categoryName) return "";
+    const params = new URLSearchParams({ parent: parentName, name: categoryName });
+    return `/api/category-image?${params.toString()}`;
+  };
+
   const handleBrandChange = (brandId: string) => {
     setSelectedBrand(brandId);
     setSelectedModel("");
@@ -436,7 +443,13 @@ export default function NewPartPage() {
                               </svg>
                             </button>
                           </div>
-                          <div className="mt-2">
+                          <div className="mt-2 flex items-center space-x-3">
+                            <img
+                              src={getCategoryImageApiUrl(selectedCategory.parent?.name, selectedCategory.name)}
+                              alt={`${selectedCategory.parent?.name || ''} ${selectedCategory.name}`}
+                              className="w-10 h-10 object-contain rounded-md bg-white/50 dark:bg-black/20 border"
+                              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                            />
                             <span className="font-semibold text-green-800 dark:text-green-200">
                               {selectedCategory.parent?.name}
                             </span>
@@ -488,9 +501,19 @@ export default function NewPartPage() {
                                     className="w-full text-left px-3 py-2 text-sm hover:bg-blue-50 dark:hover:bg-blue-950/30 rounded-md transition-colors border border-transparent hover:border-blue-200 dark:hover:border-blue-800 group"
                                   >
                                     <div className="flex items-center justify-between">
-                                      <span className="font-medium text-foreground group-hover:text-blue-700 dark:group-hover:text-blue-300">
-                                        {category.name}
-                                      </span>
+                                      <div className="flex items-center space-x-2">
+                                        <div className="w-7 h-7 rounded bg-white/50 dark:bg-black/20 border overflow-hidden flex items-center justify-center">
+                                          <img
+                                            src={getCategoryImageApiUrl(category.parent?.name, category.name)}
+                                            alt={`${category.parent?.name || ''} ${category.name}`}
+                                            className="w-full h-full object-contain"
+                                            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                                          />
+                                        </div>
+                                        <span className="font-medium text-foreground group-hover:text-blue-700 dark:group-hover:text-blue-300">
+                                          {category.name}
+                                        </span>
+                                      </div>
                                       <svg className="w-4 h-4 text-muted-foreground group-hover:text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                       </svg>

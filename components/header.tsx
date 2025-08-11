@@ -17,11 +17,11 @@ export function Header() {
           <div className="flex items-center space-x-4">
             <span className="flex items-center space-x-1">
               <Phone className="h-3 w-3" />
-              <span>+33 1 23 45 67 89</span>
+              <span>29 616 311 / 92 328 049</span>
             </span>
             <span className="flex items-center space-x-1">
               <Mail className="h-3 w-3" />
-              <span>contact@zorraga.com</span>
+              <span>mohsen.zorraga@MZ-group.tn</span>
             </span>
           </div>
           <div className="hidden md:flex items-center space-x-2">

@@ -107,17 +107,22 @@ export function Footer() {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-muted-foreground" />
                 <span className="text-muted-foreground">
-                  123 Rue de l'Automobile<br />
-                  75001 Paris, France
+                  ZORRAGA PIÈCES AUTO<br />
+                  53, Bis Av. de France<br />
+                  Ben Arous 2013
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">+33 1 23 45 67 89</span>
+                <span className="text-muted-foreground">29 616 311</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Phone className="h-4 w-4 text-muted-foreground" />
+                <span className="text-muted-foreground">92 328 049</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">contact@zorraga.com</span>
+                <span className="text-muted-foreground">mohsen.zorraga@MZ-group.tn</span>
               </div>
             </div>
             <div className="text-sm text-muted-foreground">

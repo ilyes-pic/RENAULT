@@ -36,7 +36,8 @@ export function Logo({ width = 40, height = 40, className = "" }: LogoProps) {
       alt="ZORRAGA Logo"
       width={width}
       height={height}
-      className={`object-contain transition-all duration-200 ${className}`}
+      className={`transition-all duration-200 ${className}`}
+      style={{ width: 'auto', height: 'auto', maxWidth: width, maxHeight: height }}
       priority
     />
   );
