@@ -23,44 +23,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        // Custom color palette for ZORRAGA
-        primary: {
-          light: "#27AE60", // Fresh green for light mode
-          dark: "#2ECC71", // Vibrant green for dark mode
-          DEFAULT: "#27AE60",
-        },
-        accent: {
-          light: "#00B16A", // Cooler green for interactive elements (light)
-          dark: "#00D084", // Bright green glow for hover/focus (dark)
-          DEFAULT: "#00B16A",
-        },
-        background: {
-          light: "#FFFFFF", // Clean white
-          dark: "#121212", // Deep black
-          DEFAULT: "#FFFFFF",
-        },
-        surface: {
-          light: "#F9F9F9", // Slightly off-white for cards
-          dark: "#1E1E1E", // Slightly lighter black for cards/containers
-          DEFAULT: "#F9F9F9",
-        },
-        text: {
-          primary: {
-            light: "#1A1A1A", // Deep black for strong contrast
-            dark: "#F5F5F5", // Near-white for main text
-            DEFAULT: "#1A1A1A",
-          },
-          secondary: {
-            light: "#555555", // Dark gray for subtler text
-            dark: "#CCCCCC", // Muted gray for supporting text
-            DEFAULT: "#555555",
-          },
-        },
-        border: {
-          light: "#E0E0E0", // Light gray lines
-          dark: "#2A2A2A", // Subtle contrast between components
-          DEFAULT: "#E0E0E0",
-        },
+        // Custom color palette for GROUPE RENAULT
+        brandYellow: "#FFD300",
+        brandBlack: "#000000",
+        lightBg: "#FFFFFF",
+        lightText: "#333333",
+        lightHighlight: "#F4F4F4",
+        darkBg: "#121212",
+        darkTextSecondary: "#B3B3B3",
+        darkHighlight: "#1E1E1E",
         // Shadcn/ui color system
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

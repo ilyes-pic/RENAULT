@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Search, ShoppingCart, Menu, Phone, Mail, Settings } from "lucide-react";
+import { Search, ShoppingCart, Menu, Phone, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Input } from "@/components/ui/input";
@@ -19,14 +19,11 @@ export function Header() {
             <div className="marquee-content">
               <span className="inline-flex items-center gap-2 mr-8">
                 <Phone className="h-3 w-3" />
-                <span>29 616 311 / 92 328 049</span>
+                <span>22 798 147 / 71 387 208</span>
               </span>
-              <span className="inline-flex items-center gap-2 mr-8">
-                <Mail className="h-3 w-3" />
-                <span>mohsen.zorraga@MZ-group.tn</span>
-              </span>
+              
               <span className="inline-flex items-center gap-2">
-                ZORRAGA PIÈCES AUTO
+                SPAR: Sté Piéces Auto Renault
               </span>
             </div>
           </div>
@@ -35,12 +32,9 @@ export function Header() {
             <div className="flex items-center space-x-4">
               <span className="flex items-center space-x-1">
                 <Phone className="h-3 w-3" />
-                <span className="whitespace-nowrap">29 616 311 / 92 328 049</span>
+                <span className="whitespace-nowrap">22 798 147 / 71 387 208</span>
               </span>
-              <span className="flex items-center space-x-1">
-                <Mail className="h-3 w-3" />
-                <span className="whitespace-nowrap">mohsen.zorraga@MZ-group.tn</span>
-              </span>
+              
             </div>
             <div className="hidden md:flex items-center space-x-2">
               <span>Sélecteur de véhicules intelligent</span>
@@ -55,7 +49,7 @@ export function Header() {
         <Link href="/" className="flex items-center space-x-3">
           <Logo width={40} height={40} />
           <div className="hidden sm:block">
-            <h1 className="text-xl font-bold text-primary">ZORRAGA</h1>
+            <h1 className="text-xl font-bold text-primary">GROUPE RENAULT</h1>
             <p className="text-xs text-muted-foreground">VÉHICULES</p>
           </div>
         </Link>

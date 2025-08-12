@@ -66,7 +66,7 @@ export default function AdminLayout({
 
             <Link href="/" className="flex items-center space-x-2">
               <Logo />
-              <span className="font-bold text-lg sm:text-xl text-foreground">ZORRAGA</span>
+              <span className="font-bold text-lg sm:text-xl text-foreground">GROUPE RENAULT</span>
             </Link>
             <div className="hidden sm:block h-6 w-px bg-border" />
             <span className="hidden sm:block text-sm text-muted-foreground font-medium">Administration</span>

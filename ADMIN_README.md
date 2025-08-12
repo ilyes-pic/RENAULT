@@ -1,8 +1,8 @@
-# ZORRAGA Admin Section - Complete Management System
+# GROUPE RENAULT Admin Section - Complete Management System
 
 ## Overview
 
-The ZORRAGA Admin section is a comprehensive, modern, and ergonomic administration panel designed to manage the complete automotive hierarchy: **Brands → Models → Motorisations**. It follows the same design system and theme (dark/light mode) as the main application, with a sophisticated three-tier management structure.
+The GROUPE RENAULT Admin section is a comprehensive, modern, and ergonomic administration panel designed to manage the complete automotive hierarchy: **Brands → Models → Motorisations**. It follows the same design system and theme (dark/light mode) as the main application, with a sophisticated three-tier management structure.
 
 ## Features
 
@@ -294,4 +294,4 @@ npx prisma migrate deploy
 
 ---
 
-**Note**: This admin section is designed to be ergonomic, modern, and fully integrated with the existing ZORRAGA design system. All components follow the established patterns and will automatically adapt to theme changes.
+**Note**: This admin section is designed to be ergonomic, modern, and fully integrated with the existing GROUPE RENAULT design system. All components follow the established patterns and will automatically adapt to theme changes.

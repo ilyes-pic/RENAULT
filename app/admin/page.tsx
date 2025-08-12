@@ -127,7 +127,7 @@ export default function AdminDashboard() {
     <div className="space-y-6 sm:space-y-8">
       {/* Header */}
       <div className="space-y-2">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight">Administration ZORRAGA</h1>
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight">Administration GROUPE RENAULT</h1>
         <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">
           Gérez votre catalogue automobile et les données de pièces détachées
         </p>

@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Instagram, Twitter, Phone, MapPin } from "lucide-react";
 import { Logo } from "@/components/logo";
 
 export function Footer() {
@@ -15,7 +15,7 @@ export function Footer() {
             <div className="flex items-center space-x-3">
               <Logo width={32} height={32} />
               <div>
-                <h3 className="font-bold text-primary">ZORRAGA</h3>
+                <h3 className="font-bold text-primary">GROUPE RENAULT</h3>
                 <p className="text-xs text-muted-foreground">VÉHICULES</p>
               </div>
             </div>
@@ -107,23 +107,20 @@ export function Footer() {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-muted-foreground" />
                 <span className="text-muted-foreground">
-                  ZORRAGA PIÈCES AUTO<br />
-                  53, Bis Av. de France<br />
-                  Ben Arous 2013
+                  SPAR: Sté Piéces Auto Renault<br />
+                  34 Avenue de France<br />
+                  Ben Arous
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">29 616 311</span>
+                <span className="text-muted-foreground">22 798 147</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">92 328 049</span>
+                <span className="text-muted-foreground">71 387 208</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <Mail className="h-4 w-4 text-muted-foreground" />
-                <span className="text-muted-foreground">mohsen.zorraga@MZ-group.tn</span>
-              </div>
+              
             </div>
             <div className="text-sm text-muted-foreground">
               <p className="font-medium">Horaires d'ouverture</p>
@@ -136,7 +133,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
-          <p>© 2024 ZORRAGA Véhicules. Tous droits réservés.</p>
+          <p>© 2024 GROUPE RENAULT. Tous droits réservés.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy" className="hover:text-primary">
               Politique de confidentialité

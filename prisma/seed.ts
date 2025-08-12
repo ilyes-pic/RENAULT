@@ -18,12 +18,8 @@ async function main() {
 
   // Read all car data files
   const dataFiles = [
-    'citroen-data.json',
     'renault-data.json',
     'dacia-data.json',
-    'suzuki-data.json',
-    'peugeot-data.json',
-    'kia-data.json',
   ];
 
   for (const file of dataFiles) {
@@ -74,9 +70,6 @@ async function main() {
           startYear: modelInfo.startYear,
           endYear: modelInfo.endYear,
           bodyType: guessBodyType(modelData.name),
-          fuelType: guessFuelType(modelData.motorisations),
-          transmission: 'MANUAL', // Default, can be updated later
-          driveType: 'FWD', // Default, can be updated later
         },
       });
 
@@ -100,6 +93,9 @@ async function main() {
             power: engineInfo.power,
             displacement: engineInfo.displacement,
             cylinders: guessGylinders(engineInfo.displacement ?? undefined),
+            fuelType: guessFuelType([motorisationName]),
+            transmission: 'MANUAL',
+            driveType: 'FWD',
             modelId: model.id,
           },
         });

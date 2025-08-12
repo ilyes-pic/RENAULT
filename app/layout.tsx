@@ -6,7 +6,7 @@ import { CartProvider } from "@/components/cart-provider";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "ZORRAGA - Sélecteur de Véhicules",
+  title: "GROUPE RENAULT - Sélecteur de Véhicules",
   description: "Trouvez et sélectionnez votre véhicule facilement. Sélecteur intelligent pour toutes marques automobiles.",
   keywords: "sélecteur véhicule, automobile, voiture, Renault, Citroën, Dacia, Suzuki, modèle auto",
 };

@@ -28,12 +28,12 @@ export function Logo({ width = 40, height = 40, className = "" }: LogoProps) {
     );
   }
 
-  const logoSrc = resolvedTheme === 'dark' ? '/logozorraga.png' : '/logoLightMode.png';
+  const logoSrc = '/newLogo.png';
 
   return (
     <Image
       src={logoSrc}
-      alt="ZORRAGA Logo"
+      alt="GROUPE RENAULT Logo"
       width={width}
       height={height}
       className={`transition-all duration-200 ${className}`}

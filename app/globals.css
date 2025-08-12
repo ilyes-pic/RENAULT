@@ -4,28 +4,28 @@
 
 @layer base {
   :root {
-    /* Light Mode - Ergonomic & Modern Colors */
-    --background: 0 0% 99%;
-    --foreground: 0 0% 5%;
-    --card: 0 0% 97%;
-    --card-foreground: 0 0% 8%;
-    --popover: 0 0% 99%;
-    --popover-foreground: 0 0% 8%;
-    --primary: 145 65% 38%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 210 15% 95%;
-    --secondary-foreground: 0 0% 15%;
-    --muted: 210 15% 94%;
+    /* Light Mode - GROUPE RENAULT palette */
+    --background: 0 0% 100%; /* White */
+    --foreground: 0 0% 20%; /* #333333 */
+    --card: 0 0% 96%; /* #F4F4F4 */
+    --card-foreground: 0 0% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+    --primary: 50 100% 50%; /* #FFD300 */
+    --primary-foreground: 0 0% 0%; /* black on yellow */
+    --secondary: 0 0% 96%; /* highlight gray */
+    --secondary-foreground: 0 0% 20%;
+    --muted: 0 0% 96%; /* highlight gray */
     --muted-foreground: 0 0% 40%;
-    --accent: 145 70% 32%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 50 100% 50%;
+    --accent-foreground: 0 0% 0%;
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
-    --border: 210 15% 89%;
-    --input: 210 15% 91%;
-    --ring: 145 65% 38%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 50 100% 50%;
     --success: 142 76% 36%;
-    --warning: 38 92% 50%;
+    --warning: 50 100% 50%;
     --info: 217 91% 60%;
     --radius: 0.75rem;
     --chart-1: 12 76% 61%;
@@ -36,28 +36,28 @@
   }
 
   .dark {
-    /* Dark Mode - Enhanced Contrast & Readability */
-    --background: 0 0% 4%;
-    --foreground: 0 0% 95%;
-    --card: 0 0% 8%;
-    --card-foreground: 0 0% 95%;
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 95%;
-    --primary: 145 75% 58%;
-    --primary-foreground: 0 0% 4%;
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 85%;
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 65%;
-    --accent: 152 85% 45%;
-    --accent-foreground: 0 0% 4%;
+    /* Dark Mode - GROUPE RENAULT palette */
+    --background: 0 0% 7%; /* #121212 */
+    --foreground: 0 0% 100%; /* white */
+    --card: 0 0% 12%; /* #1E1E1E */
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 50 100% 50%; /* #FFD300 */
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 70%; /* #B3B3B3 */
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 50 100% 50%;
+    --accent-foreground: 0 0% 0%;
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 145 75% 58%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 50 100% 50%;
     --success: 142 76% 45%;
-    --warning: 38 92% 60%;
+    --warning: 50 100% 50%;
     --info: 217 91% 70%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
@@ -164,7 +164,7 @@
   transform: translate(-50%, -50%);
   width: 120px;
   height: 120px;
-  background-image: url('/logoLightMode.png');
+  background-image: url('/newLogo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -173,7 +173,7 @@
 }
 
 .dark .logo-stamp::before {
-  background-image: url('/logozorraga.png');
+  background-image: url('/newLogo.png');
 }
 
 /* Animation utilities */
